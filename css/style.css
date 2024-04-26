@@ -1,0 +1,59 @@
+:root{
+    --text-color: #757575;
+    --footer-bg: #2F303A;
+    --section-bg: #F5F4FA;
+    --buton-bg: #2196F3;
+    --footer-a: #FFF;
+    --footer-a2: rgba(255, 255, 255, 0.60);
+    --header-href: #212121;
+
+
+}
+p{
+    color: var(--text-color);
+}
+footer{
+    background-color: var(--footer-bg);
+}
+[href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"]{
+    color: var(--footer-a);
+}
+.title-href{
+    color: var(--footer-a2);
+}
+.title-href2{
+    color: var(--footer-a2);
+}
+.title-Web{
+    color: #2196F3;
+    font-size: 26px;
+}
+.title-Studio{
+    color: #FFF;
+    font-size: 26px;
+}
+.title-section{
+    background-color: var(--section-bg);
+}
+button{
+    border-radius: 4px;
+background: var(--buton-bg)
+}
+.title-portfolioo{
+   color: var(--header-href);
+}
+.title-kontaktu{
+    color: var(--header-href);
+}
+.title-tel{
+    color: #757575;
+}
+.title-Web2{
+    color: #2196F3;
+    font-size: 26px;
+}
+.title-Studio2{
+    color: #000;
+    font-size: 26px;
+}
+

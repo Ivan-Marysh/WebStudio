@@ -1,0 +1,51 @@
+:root{
+    --text-color: #757575;
+    --header-href: #212121;
+    --buton-bg: #2196F3;
+    --footer-bg: #2F303A;
+    --footer-a: #FFF;
+    --footer-a2: rgba(255, 255, 255, 0.60);
+}
+p{
+    color: var(--text-color);
+}
+footer{
+    background-color: var(--footer-bg);
+}
+.title-aa{
+    color: var(--footer-a2);
+}
+.title-a{
+    color: var(--footer-a2);
+}
+[href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"]{
+    color: var(--footer-a);
+}
+.title-Web4{
+    color: #2196F3;
+    font-size: 26px;
+}
+.title-Studio4{
+    color: #FFF;
+    font-size: 26px;
+}
+.title-button{
+    background-color: var(--buton-bg)
+}
+.title-studio{
+    color: var(--header-href);
+}
+.title-kontaktu2{
+    color: var(--header-href);
+}
+.title-tel2{
+    color: #757575;
+}
+.title-Web3{
+    color: #2196F3;
+    font-size: 26px;
+}
+.title-Studio3{
+    color: #000;
+    font-size: 26px;
+}
