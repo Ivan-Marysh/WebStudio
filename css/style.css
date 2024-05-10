@@ -1,3 +1,7 @@
+/*font-family: "Raleway";*/
+/*font-family: "Roboto";*/
+
+
 :root{
     --text-color: #757575;
     --footer-bg: #2F303A;
@@ -17,20 +21,46 @@ footer{
 }
 [href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"]{
     color: var(--footer-a);
+    font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
 }
 .title-href{
     color: var(--footer-a2);
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
 }
 .title-href2{
     color: var(--footer-a2);
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
 }
 .title-Web{
     color: #2196F3;
     font-size: 26px;
+    font-family: "Raleway"
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.78px;
+    
 }
 .title-Studio{
     color: #FFF;
     font-size: 26px;
+    font-family: "Raleway"
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.78px;
+    
+    
 }
 .title-section{
     background-color: var(--section-bg);
@@ -38,22 +68,119 @@ footer{
 button{
     border-radius: 4px;
 background: var(--buton-bg)
+
 }
 .title-portfolioo{
    color: var(--header-href);
+   font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.28px;
 }
 .title-kontaktu{
     color: var(--header-href);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.28px;
 }
 .title-tel{
     color: #757575;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.28px;
 }
 .title-Web2{
     color: #2196F3;
     font-size: 26px;
+    font-family: "Raleway"
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.78px;
+    
+  
 }
 .title-Studio2{
     color: #000;
     font-size: 26px;
+    font-family: "Raleway"
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.78px;
+    
 }
+.title-stydio{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.28px;
 
+
+}
+.title-info{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.28px;
+
+}
+h1{
+    display: flex;
+width: 696px;
+height: 120px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.title-button1{
+    text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+}
+.title-h2{
+    font-family: "Roboto";
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+
+}
+.title-p{
+    font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.title-h2_2{
+    text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 1.08px;
+}
+.title-h3{
+    font-family: "Roboto";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.48px;
+}
+.title-p2{
+    font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 19;
+letter-spacing: 0.48px;
+}
