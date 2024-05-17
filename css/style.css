@@ -24,7 +24,7 @@ footer{
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 .title-href{
@@ -32,7 +32,7 @@ letter-spacing: 0.42px;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 .title-href2{
@@ -40,7 +40,7 @@ letter-spacing: 0.42px;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 .title-Web{
@@ -48,7 +48,7 @@ letter-spacing: 0.42px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
     
 }
@@ -57,7 +57,7 @@ letter-spacing: 0.42px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
     
     
@@ -67,7 +67,7 @@ letter-spacing: 0.42px;
 }
 button{
     border-radius: 4px;
-background: var(--buton-bg)
+
 
 }
 .title-portfolioo{
@@ -75,7 +75,7 @@ background: var(--buton-bg)
    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 }
 .title-kontaktu{
@@ -83,7 +83,7 @@ letter-spacing: 0.28px;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 }
 .title-tel{
@@ -91,7 +91,7 @@ letter-spacing: 0.28px;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 }
 .title-Web2{
@@ -99,7 +99,7 @@ letter-spacing: 0.28px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
     
   
@@ -109,25 +109,28 @@ letter-spacing: 0.28px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
     
 }
 .title-stydio{
+    color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 
 
 }
 .title-info{
+    color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
+
 
 }
 h1{
@@ -143,14 +146,14 @@ flex-shrink: 0;
 font-family: "Roboto";
 font-size: 16px;
 font-weight: 700;
-line-height: 30px;
+line-height: 1,875;
 letter-spacing: 0.96px;
 }
 .title-h2{
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 700;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 
@@ -159,7 +162,7 @@ text-transform: uppercase;
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 .title-h2_2{
@@ -174,13 +177,49 @@ letter-spacing: 1.08px;
     font-family: "Roboto";
 font-size: 16px;
 font-weight: 500;
-line-height: 19px;
+line-height: 1,1875;
 letter-spacing: 0.48px;
 }
 .title-p2{
     font-family: "Roboto";
 font-size: 16px;
 font-weight: 400;
-line-height: 19;
+line-height: 1,1875;
 letter-spacing: 0.48px;
+}
+.title-info:hover{
+    color: #2196F3;
+}
+.title-stydio:hover{
+    color: #2196F3;
+}
+.title-tel:hover{
+    color: #2196F3;
+}
+.title-kontaktu:hover{
+    color: #2196F3;
+}
+.title-portfolioo:hover{
+    color: #2196F3;
+}
+.title-info:focus{
+    color: #2196F3;
+}
+.title-stydio:focus{
+    color: #2196F3;
+}
+.title-tel:focus{
+    color: #2196F3;
+}
+.title-kontaktu:focus{
+    color: #2196F3;
+}
+.title-portfolioo:focus{
+    color: #2196F3;
+}
+button:hover{
+    background: var(--buton-bg);
+}
+button:focus{
+    background: var(--buton-bg);
 }

@@ -17,7 +17,7 @@ footer{
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 .title-a{
@@ -25,7 +25,7 @@ letter-spacing: 0.42px;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 [href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"]{
@@ -33,7 +33,7 @@ letter-spacing: 0.42px;
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1,72;
 letter-spacing: 0.42px;
 }
 .title-Web4{
@@ -41,7 +41,7 @@ letter-spacing: 0.42px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
 }
 .title-Studio4{
@@ -49,18 +49,21 @@ letter-spacing: 0.42px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
 }
-.title-button{
-    background-color: var(--buton-bg)
+button:hover{
+    background: var(--buton-bg);
+}
+button:focus{
+    background: var(--buton-bg);
 }
 .title-studio{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
@@ -69,7 +72,7 @@ letter-spacing: 0.28px;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
@@ -78,7 +81,7 @@ letter-spacing: 0.28px;
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 }
 
@@ -87,7 +90,7 @@ letter-spacing: 0.28px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
 }
 .title-Studio3{
@@ -95,35 +98,67 @@ letter-spacing: 0.28px;
     font-size: 26px;
     font-family: "Raleway"
     font-weight: 700;
-    line-height: 36px;
+    line-height: 1,39;
     letter-spacing: 0.78px;
 }
 .title-portfolioo2{
+    color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
 .title-info2{
+    color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-line-height: 16px;
+line-height: 1,15;
 letter-spacing: 0.28px;
 }
 .title-h2_3{
     font-family: "Roboto";
 font-size: 18px;
 font-weight: 700;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 1.08px;
 }
 .title-p3{
     font-family: "Roboto";
 font-size: 16px;
 font-weight: 400;
-line-height: 30px;
+line-height: 1,875;
 letter-spacing: 0.48px;
+}
+.title-info2:hover{
+    color: #2196F3;
+}
+.title-studio:hover{
+    color: #2196F3;
+}
+.title-tel2:hover{
+    color: #2196F3;
+}
+.title-kontaktu2:hover{
+    color: #2196F3;
+}
+.title-portfolioo2:hover{
+    color: #2196F3;
+}
+.title-info2:focus{
+    color: #2196F3;
+}
+.title-studio:focus{
+    color: #2196F3;
+}
+.title-tel2:focus{
+    color: #2196F3;
+}
+.title-kontaktu2:focus{
+    color: #2196F3;
+}
+.title-portfolioo2:focus{
+    color: #2196F3;
 }
