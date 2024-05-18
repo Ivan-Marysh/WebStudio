@@ -12,7 +12,7 @@ p{
 footer{
     background-color: var(--footer-bg);
 }
-.title-aa{
+.link-aa{
     color: var(--footer-a2);
     font-family: Roboto;
 font-size: 14px;
@@ -20,7 +20,7 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.title-a{
+.link-a{
     color: var(--footer-a2);
     font-family: Roboto;
 font-size: 14px;
@@ -36,7 +36,7 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.title-Web4{
+.link-Web4{
     color: #2196F3;
     font-size: 26px;
     font-family: "Raleway"
@@ -44,7 +44,7 @@ letter-spacing: 0.42px;
     line-height: 1,39;
     letter-spacing: 0.78px;
 }
-.title-Studio4{
+.link-Studio4{
     color: #FFF;
     font-size: 26px;
     font-family: "Raleway"
@@ -58,7 +58,7 @@ button:hover{
 button:focus{
     background: var(--buton-bg);
 }
-.title-studio{
+.link-studio{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -67,7 +67,7 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
-.title-kontaktu2{
+.link-kontaktu2{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -76,7 +76,7 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
-.title-tel2{
+.link-tel2{
     color: #757575;
     font-family: "Roboto";
     font-size: 14px;
@@ -85,7 +85,7 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 }
 
-.title-Web3{
+.link-Web3{
     color: #2196F3;
     font-size: 26px;
     font-family: "Raleway"
@@ -93,7 +93,7 @@ letter-spacing: 0.28px;
     line-height: 1,39;
     letter-spacing: 0.78px;
 }
-.title-Studio3{
+.link-Studio3{
     color: #000;
     font-size: 26px;
     font-family: "Raleway"
@@ -101,7 +101,7 @@ letter-spacing: 0.28px;
     line-height: 1,39;
     letter-spacing: 0.78px;
 }
-.title-portfolioo2{
+.link-portfolioo2{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -110,7 +110,7 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
-.title-info2{
+.link-info2{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -125,40 +125,40 @@ font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
 }
-.title-p3{
+.text-p3{
     font-family: "Roboto";
 font-size: 16px;
 font-weight: 400;
 line-height: 1,875;
 letter-spacing: 0.48px;
 }
-.title-info2:hover{
+.link-info2:hover{
     color: #2196F3;
 }
-.title-studio:hover{
+.link-studio:hover{
     color: #2196F3;
 }
-.title-tel2:hover{
+.link-tel2:hover{
     color: #2196F3;
 }
-.title-kontaktu2:hover{
+.link-kontaktu2:hover{
     color: #2196F3;
 }
-.title-portfolioo2:hover{
+.link-portfolioo2:hover{
     color: #2196F3;
 }
-.title-info2:focus{
+.link-info2:focus{
     color: #2196F3;
 }
-.title-studio:focus{
+.link-studio:focus{
     color: #2196F3;
 }
-.title-tel2:focus{
+.link-tel2:focus{
     color: #2196F3;
 }
-.title-kontaktu2:focus{
+.link-kontaktu2:focus{
     color: #2196F3;
 }
-.title-portfolioo2:focus{
+.link-portfolioo2:focus{
     color: #2196F3;
 }

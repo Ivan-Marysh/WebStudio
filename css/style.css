@@ -27,7 +27,7 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.title-href{
+.link-href{
     color: var(--footer-a2);
     font-family: Roboto;
 font-size: 14px;
@@ -35,7 +35,7 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.title-href2{
+.link-href2{
     color: var(--footer-a2);
     font-family: Roboto;
 font-size: 14px;
@@ -43,7 +43,7 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.title-Web{
+.link-Web{
     color: #2196F3;
     font-size: 26px;
     font-family: "Raleway"
@@ -52,7 +52,7 @@ letter-spacing: 0.42px;
     letter-spacing: 0.78px;
     
 }
-.title-Studio{
+.link-Studio{
     color: #FFF;
     font-size: 26px;
     font-family: "Raleway"
@@ -62,7 +62,7 @@ letter-spacing: 0.42px;
     
     
 }
-.title-section{
+.section-section{
     background-color: var(--section-bg);
 }
 button{
@@ -70,7 +70,7 @@ button{
 
 
 }
-.title-portfolioo{
+.link-portfolioo{
    color: var(--header-href);
    font-family: "Roboto";
     font-size: 14px;
@@ -78,7 +78,7 @@ button{
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
-.title-kontaktu{
+.link-kontaktu{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -86,7 +86,7 @@ letter-spacing: 0.28px;
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
-.title-tel{
+.link-tel{
     color: #757575;
     font-family: "Roboto";
     font-size: 14px;
@@ -94,7 +94,7 @@ letter-spacing: 0.28px;
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
-.title-Web2{
+.link-Web2{
     color: #2196F3;
     font-size: 26px;
     font-family: "Raleway"
@@ -104,7 +104,7 @@ letter-spacing: 0.28px;
     
   
 }
-.title-Studio2{
+.link-Studio2{
     color: #000;
     font-size: 26px;
     font-family: "Raleway"
@@ -113,7 +113,7 @@ letter-spacing: 0.28px;
     letter-spacing: 0.78px;
     
 }
-.title-stydio{
+.link-stydio{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -123,7 +123,7 @@ letter-spacing: 0.28px;
 
 
 }
-.title-info{
+.link-info{
     color: var(--header-href);
     font-family: "Roboto";
     font-size: 14px;
@@ -141,7 +141,7 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
 }
-.title-button1{
+.btn-button1{
     text-align: center;
 font-family: "Roboto";
 font-size: 16px;
@@ -149,7 +149,7 @@ font-weight: 700;
 line-height: 1,875;
 letter-spacing: 0.96px;
 }
-.title-h2{
+.subtitle-h2_1{
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 700;
@@ -158,12 +158,20 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 
 }
-.title-p{
+.text-p{
     font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
+}
+.title-h2{
+    text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 1.08px;
 }
 .title-h2_2{
     text-align: center;
@@ -173,48 +181,48 @@ font-weight: 700;
 line-height: 42px;
 letter-spacing: 1.08px;
 }
-.title-h3{
+.subtitle-h3{
     font-family: "Roboto";
 font-size: 16px;
 font-weight: 500;
 line-height: 1,1875;
 letter-spacing: 0.48px;
 }
-.title-p2{
+.text-p2{
     font-family: "Roboto";
 font-size: 16px;
 font-weight: 400;
 line-height: 1,1875;
 letter-spacing: 0.48px;
 }
-.title-info:hover{
+.link-info:hover{
     color: #2196F3;
 }
-.title-stydio:hover{
+.link-stydio:hover{
     color: #2196F3;
 }
-.title-tel:hover{
+.link-tel:hover{
     color: #2196F3;
 }
-.title-kontaktu:hover{
+.link-kontaktu:hover{
     color: #2196F3;
 }
-.title-portfolioo:hover{
+.link-portfolioo:hover{
     color: #2196F3;
 }
-.title-info:focus{
+.link-info:focus{
     color: #2196F3;
 }
-.title-stydio:focus{
+.link-stydio:focus{
     color: #2196F3;
 }
-.title-tel:focus{
+.link-tel:focus{
     color: #2196F3;
 }
-.title-kontaktu:focus{
+.link-kontaktu:focus{
     color: #2196F3;
 }
-.title-portfolioo:focus{
+.link-portfolioo:focus{
     color: #2196F3;
 }
 button:hover{
