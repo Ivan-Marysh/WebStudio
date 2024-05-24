@@ -6,6 +6,9 @@
     --footer-a: #FFF;
     --footer-a2: rgba(255, 255, 255, 0.60);
 }
+body{
+    font-family: "Roboto"; font-family: "Raleway";
+}
 p{
     color: var(--text-color);
 }
@@ -14,7 +17,6 @@ footer{
 }
 .link-aa{
     color: var(--footer-a2);
-    font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
@@ -22,7 +24,6 @@ letter-spacing: 0.42px;
 }
 .link-a{
     color: var(--footer-a2);
-    font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
@@ -30,7 +31,6 @@ letter-spacing: 0.42px;
 }
 [href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"]{
     color: var(--footer-a);
-    font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
@@ -60,7 +60,6 @@ button:focus{
 }
 .link-studio{
     color: var(--header-href);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
@@ -69,7 +68,6 @@ letter-spacing: 0.28px;
 }
 .link-kontaktu2{
     color: var(--header-href);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
@@ -78,7 +76,6 @@ letter-spacing: 0.28px;
 }
 .link-tel2{
     color: #757575;
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
@@ -103,7 +100,6 @@ letter-spacing: 0.28px;
 }
 .link-portfolioo2{
     color: var(--header-href);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
@@ -112,21 +108,18 @@ letter-spacing: 0.28px;
 }
 .link-info2{
     color: var(--header-href);
-    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
 .title-h2_3{
-    font-family: "Roboto";
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
 }
 .text-p3{
-    font-family: "Roboto";
 font-size: 16px;
 font-weight: 400;
 line-height: 1,875;
