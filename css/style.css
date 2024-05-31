@@ -14,7 +14,7 @@
 
 }
 body{
-    font-family: "Roboto"; font-family: "Raleway"
+    font-family: "Roboto";
 }
 p{
     color: var(--text-color);
