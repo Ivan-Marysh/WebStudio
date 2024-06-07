@@ -54,6 +54,7 @@ letter-spacing: 0.42px;
 }
 button:hover{
     background: var(--buton-bg);
+    color: white;
 }
 button:focus{
     background: var(--buton-bg);
