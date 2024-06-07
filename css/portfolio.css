@@ -108,7 +108,7 @@ letter-spacing: 0.28px;
 
 }
 .link-info2{
-    color: var(--header-href);
+    color: var(--text-color);
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
