@@ -15,14 +15,14 @@ p{
 footer{
     background-color: var(--footer-bg);
 }
-.link-aa{
+.footer-link{
     color: var(--footer-a2);
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.link-a{
+.footer-link{
     color: var(--footer-a2);
 font-size: 14px;
 font-weight: 400;
@@ -36,30 +36,24 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.link-Web4{
-    color: #2196F3;
-    font-size: 26px;
-    font-family: "Raleway"
-    font-weight: 700;
-    line-height: 1,39;
-    letter-spacing: 0.78px;
-}
-.link-Studio4{
+
+.footer-logo{
     color: #FFF;
     font-size: 26px;
-    font-family: "Raleway"
+    font-family: "Raleway";
     font-weight: 700;
     line-height: 1,39;
     letter-spacing: 0.78px;
 }
-button:hover{
+
+.five-button:hover{
     background: var(--buton-bg);
     color: white;
 }
-button:focus{
+.five-button:focus{
     background: var(--buton-bg);
 }
-.link-studio{
+.nav-link{
     color: var(--header-href);
     font-size: 14px;
     font-weight: 500;
@@ -67,7 +61,7 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
-.link-kontaktu2{
+.nav-link{
     color: var(--header-href);
     font-size: 14px;
     font-weight: 500;
@@ -75,7 +69,15 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 
 }
-.link-tel2{
+
+.header-link{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+line-height: 1,15;
+letter-spacing: 0.28px;
+}
+.header-link{
     color: #757575;
     font-size: 14px;
     font-weight: 500;
@@ -83,76 +85,62 @@ line-height: 1,15;
 letter-spacing: 0.28px;
 }
 
-.link-Web3{
+.logo{
     color: #2196F3;
     font-size: 26px;
-    font-family: "Raleway"
+    font-family: "Raleway";
     font-weight: 700;
     line-height: 1,39;
     letter-spacing: 0.78px;
 }
-.link-Studio3{
+
+.header-logo{
     color: #000;
     font-size: 26px;
-    font-family: "Raleway"
+    font-family: "Raleway";
     font-weight: 700;
     line-height: 1,39;
     letter-spacing: 0.78px;
 }
-.link-portfolioo2{
-    color: var(--header-href);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-
-}
-.link-info2{
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-}
-.title-h2_3{
+.advertising-title{
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
 }
-.text-p3{
+.advertising-text{
 font-size: 16px;
 font-weight: 400;
 line-height: 1,875;
 letter-spacing: 0.48px;
 }
-.link-info2:hover{
+.nav-link:hover{
     color: #2196F3;
 }
-.link-studio:hover{
+.header-link:hover{
     color: #2196F3;
 }
-.link-tel2:hover{
+.nav-link:hover{
     color: #2196F3;
 }
-.link-kontaktu2:hover{
+.header-link:hover{
     color: #2196F3;
 }
-.link-portfolioo2:hover{
+.header-link:hover{
     color: #2196F3;
 }
-.link-info2:focus{
+.nav-link:focus{
     color: #2196F3;
 }
-.link-studio:focus{
+.header-link:focus{
     color: #2196F3;
 }
-.link-tel2:focus{
+.nav-link:focus{
     color: #2196F3;
 }
-.link-kontaktu2:focus{
+.header-link:focus{
     color: #2196F3;
 }
-.link-portfolioo2:focus{
+.header-link:focus{
     color: #2196F3;
 }

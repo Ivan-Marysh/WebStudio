@@ -29,33 +29,17 @@ font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.link-href{
+.footer-link{
     color: var(--footer-a2);
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
-}
-.link-href2{
-    color: var(--footer-a2);
-font-size: 14px;
-font-weight: 400;
-line-height: 1,72;
-letter-spacing: 0.42px;
-}
-.link-Web{
-    color: #2196F3;
-    font-size: 26px;
-    font-family: "Raleway"
-    font-weight: 700;
-    line-height: 1,39;
-    letter-spacing: 0.78px;
-    
-}
-.link-Studio{
+}  
+.footer-logo{
     color: #FFF;
     font-size: 26px;
-    font-family: "Raleway"
+    font-family: "Raleway";
     font-weight: 700;
     line-height: 1,39;
     letter-spacing: 0.78px;
@@ -69,7 +53,7 @@ letter-spacing: 0.42px;
     color: white;
 }
 
-.section-section{
+.section-team{
     background-color: var(--section-bg);
 }
 button{
@@ -79,31 +63,47 @@ button{
 
 
 }
-.link-portfolioo{
+.nav-link{
    color: var(--header-href);
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
-.link-kontaktu{
+.nav-link{
     color: var(--header-href);
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
-.link-tel{
-    color: #757575;
+.nav-link{
+    color: var(--header-href);
     font-size: 14px;
     font-weight: 500;
 line-height: 1,15;
 letter-spacing: 0.28px;
 }
+.header-link{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+line-height: 1,15;
+letter-spacing: 0.28px;
+}
+.header-link{
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+line-height: 1,15;
+letter-spacing: 0.28px;
+
+
+}
 .logo{
     color: #2196F3;
     font-size: 26px;
-    font-family: "Raleway"
+    font-family: "Raleway";
     font-weight: 700;
     line-height: 1,39;
     letter-spacing: 0.78px;
@@ -113,31 +113,18 @@ letter-spacing: 0.28px;
 .header-logo{
     color: #000;
     font-size: 26px;
-    font-family: "Raleway"
+    font-family: "Raleway";
     font-weight: 700;
     line-height: 1,39;
     letter-spacing: 0.78px;
     
 }
-.link-stydio{
-    color: var(--header-href);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
 
 
-}
-.link-info{
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
 
 
-}
-h1{
+
+.business-title{
     display: flex;
 width: 696px;
 height: 120px;
@@ -152,7 +139,7 @@ font-weight: 700;
 line-height: 1,875;
 letter-spacing: 0.96px;
 }
-.subtitle-h2_1{
+.details-subtitle{
 font-size: 14px;
 font-weight: 700;
 line-height: 1,15;
@@ -160,65 +147,65 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 
 }
-.text-p{
+.details-text{
 font-size: 14px;
 font-weight: 400;
 line-height: 1,72;
 letter-spacing: 0.42px;
 }
-.title-h2{
+.work-title{
     text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 42px;
 letter-spacing: 1.08px;
 }
-.title-h2_2{
+.team-title{
     text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 42px;
 letter-spacing: 1.08px;
 }
-.subtitle-h3{
+.team-subtitle{
 font-size: 16px;
 font-weight: 500;
 line-height: 1,1875;
 letter-spacing: 0.48px;
 }
-.text-p2{
+.team-text{
 font-size: 16px;
 font-weight: 400;
 line-height: 1,1875;
 letter-spacing: 0.48px;
 }
-.link-info:hover{
+.nav-link:hover{
     color: #2196F3;
 }
-.link-stydio:hover{
+.nav-link:hover{
     color: #2196F3;
 }
-.link-tel:hover{
+.nav-link:hover{
     color: #2196F3;
 }
-.link-kontaktu:hover{
+.header-link:hover{
     color: #2196F3;
 }
-.link-portfolioo:hover{
+.header-link:hover{
     color: #2196F3;
 }
-.link-info:focus{
+.nav-link:focus{
     color: #2196F3;
 }
-.link-stydio:focus{
+.nav-link:focus{
     color: #2196F3;
 }
-.link-tel:focus{
+.nav-link:focus{
     color: #2196F3;
 }
-.link-kontaktu:focus{
+.header-link:focus{
     color: #2196F3;
 }
-.link-portfolioo:focus{
+.header-link:focus{
     color: #2196F3;
 }
