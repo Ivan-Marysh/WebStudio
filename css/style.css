@@ -16,96 +16,12 @@
 body{
     font-family: "Roboto";
 }
-p{
-    color: var(--text-color);
-}
-footer{
-    background-color: var(--footer-bg);
-}
-[href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000004%2C30.538092&z=17"]{
-    color: var(--footer-a);
-font-size: 14px;
-font-weight: 400;
-line-height: 1,72;
-letter-spacing: 0.42px;
-}
-.footer-link{
-    color: var(--footer-a2);
-font-size: 14px;
-font-weight: 400;
-line-height: 1,72;
-letter-spacing: 0.42px;
-}  
-.footer-logo{
-    color: #FFF;
-    font-size: 26px;
-    font-family: "Raleway";
-    font-weight: 700;
-    line-height: 1,39;
-    letter-spacing: 0.78px;
-    
-    
-}
-.section-business{
-    background-color:  #2F303A;;
-}
-.business-title{
-    color: white;
-}
-
-.section-team{
-    background-color: var(--section-bg);
-}
-button{
-    border-radius: 4px;
-    background-color: var(--buton-bg);
-    color: white;
-
-
-}
-.nav-link{
-   color: var(--header-href);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-}
-.nav-link{
-    color: var(--header-href);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-}
-.nav-link{
-    color: var(--header-href);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-}
-.header-link{
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-}
-.header-link{
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 500;
-line-height: 1,15;
-letter-spacing: 0.28px;
-
-
-}
 .logo{
     color: #2196F3;
     font-size: 26px;
     font-family: "Raleway";
     font-weight: 700;
-    line-height: 1,39;
+    line-height: 1.39;
     letter-spacing: 0.78px;
     
   
@@ -115,97 +31,186 @@ letter-spacing: 0.28px;
     font-size: 26px;
     font-family: "Raleway";
     font-weight: 700;
-    line-height: 1,39;
-    letter-spacing: 0.78px;
+    line-height: 1.39;
+    letter-spacing: 0.78px
     
 }
+.nav-link{
+    color: var(--header-href);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 1.15;
+     letter-spacing: 0.28px;
+ }
+ .nav-link{
+     color: var(--header-href);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 1.15;
+     letter-spacing: 0.28px;
+ }
+ .nav-link{
+     color: var(--header-href);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 1.15;
+     letter-spacing: 0.28px;
+ }
+ .header-link{
+     color: var(--text-color);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 1.15;
+     letter-spacing: 0.28px;
+ }
+ .header-link{
+     color: var(--text-color);
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 1.15;
+     letter-spacing: 0.28px;
+ 
+ 
+ }
+ .nav-link:hover{
+    color: #2196F3;
+}
+.nav-link:hover{
+    color: #2196F3;
+}
+.nav-link:hover{
+    color: #2196F3;
+}
+.header-link:hover{
+    color: #2196F3;
+}
+.header-link:hover{
+    color: #2196F3;
+}
+.nav-link:focus{
+    color: #2196F3;
+}
+.nav-link:focus{
+    color: #2196F3;
+}
+.nav-link:focus{
+    color: #2196F3;
+}
+.header-link:focus{
+    color: #2196F3;
+}
+.header-link:focus{
+    color: #2196F3;
+}
 
-
-
-
-
+ .section-business{
+    background-color:  #2F303A;;
+}
 .business-title{
     display: flex;
-width: 696px;
-height: 120px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
+    width: 696px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: white;
 }
-.btn-button1{
-    text-align: center;
-font-size: 16px;
-font-weight: 700;
-line-height: 1,875;
-letter-spacing: 0.96px;
-}
-.details-subtitle{
-font-size: 14px;
-font-weight: 700;
-line-height: 1,15;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+button{
+    border-radius: 4px;
+    background-color: var(--buton-bg);
+    color: white;
+
 
 }
-.details-text{
-font-size: 14px;
-font-weight: 400;
-line-height: 1,72;
-letter-spacing: 0.42px;
+
+
+.business-button{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.96px;
+}
+.details-subtitle{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    
+    }
+    .details-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.72;
+    letter-spacing: 0.42px;
+    }
+p{
+    color: var(--text-color);
 }
 .work-title{
     text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 1.08px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 1.08px;
+}
+.section-team{
+    background-color: var(--section-bg);
 }
 .team-title{
     text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 1.08px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 1.08px;
 }
 .team-subtitle{
-font-size: 16px;
-font-weight: 500;
-line-height: 1,1875;
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1875;
+    letter-spacing: 0.48px;
+    }
+    .team-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1875;
+    letter-spacing: 0.48px;
+    }
+    
+footer{
+    background-color: var(--footer-bg);
 }
-.team-text{
-font-size: 16px;
-font-weight: 400;
-line-height: 1,1875;
-letter-spacing: 0.48px;
+.footer-link{
+    color: var(--footer-a2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.72;
+    letter-spacing: 0.42px;
+}  
+.footer-logo{
+    color: #FFF;
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: 700;
+    line-height: 1.39;
+    letter-spacing: 0.78px;
+    
+    
 }
-.nav-link:hover{
-    color: #2196F3;
+.footer-link2{
+    color: var(--footer-a);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.72;
+    letter-spacing: 0.42px;
 }
-.nav-link:hover{
-    color: #2196F3;
-}
-.nav-link:hover{
-    color: #2196F3;
-}
-.header-link:hover{
-    color: #2196F3;
-}
-.header-link:hover{
-    color: #2196F3;
-}
-.nav-link:focus{
-    color: #2196F3;
-}
-.nav-link:focus{
-    color: #2196F3;
-}
-.nav-link:focus{
-    color: #2196F3;
-}
-.header-link:focus{
-    color: #2196F3;
-}
-.header-link:focus{
-    color: #2196F3;
-}
+
+
+    
+
+
+
+
+
+
