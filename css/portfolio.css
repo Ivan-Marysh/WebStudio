@@ -9,6 +9,18 @@
 body{
     font-family: "Roboto";
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: red solid;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .logo{
     color: #2196F3;
     font-size: 26px;
@@ -87,11 +99,15 @@ body{
 .header-link:focus{
     color: #2196F3;
 }
-.five-button:hover{
+.section-advertising{
+    padding-top: 94px;
+padding-bottom: 94px;
+}
+.advertising-button:hover{
     background: var(--buton-bg);
     color: white;
 }
-.five-button:focus{
+.advertising-button:focus{
     background: var(--buton-bg);
 }
 .advertising-title{
@@ -112,6 +128,8 @@ p{
 }
 footer{
     background-color: var(--footer-bg);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo{
     color: #FFF;
