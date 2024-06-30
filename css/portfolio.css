@@ -5,6 +5,7 @@
     --footer-bg: #2F303A;
     --footer-a: #FFF;
     --footer-a2: rgba(255, 255, 255, 0.60);
+    --logo-color: #000;
 }
 body{
     font-family: "Roboto";
@@ -22,7 +23,7 @@ body{
     padding-bottom: 25px;
 }
 .logo{
-    color: #2196F3;
+    color: var(--buton-bg);
     font-size: 26px;
     font-family: "Raleway";
     font-weight: 700;
@@ -31,7 +32,7 @@ body{
 }
 
 .header-logo{
-    color: #000;
+    color: var(--logo-color);
     font-size: 26px;
     font-family: "Raleway";
     font-weight: 700;
@@ -46,14 +47,7 @@ body{
     letter-spacing: 0.28px;
 
 }
-.nav-link{
-    color: var(--header-href);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing: 0.28px;
 
-}
 
 .header-link{
     color: var(--text-color);
@@ -62,42 +56,17 @@ body{
     line-height: 1.15;
     letter-spacing: 0.28px;
 }
-.header-link{
-    color: #757575;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.15;    
-    letter-spacing: 0.28px;
-}
 .nav-link:hover{
-    color: #2196F3;
+    color: var(--buton-bg);
 }
 .header-link:hover{
-    color: #2196F3;
-}
-.nav-link:hover{
-    color: #2196F3;
-}
-.header-link:hover{
-    color: #2196F3;
-}
-.header-link:hover{
-    color: #2196F3;
+    color: var(--buton-bg);
 }
 .nav-link:focus{
-    color: #2196F3;
+    color: var(--buton-bg);
 }
 .header-link:focus{
-    color: #2196F3;
-}
-.nav-link:focus{
-    color: #2196F3;
-}
-.header-link:focus{
-    color: #2196F3;
-}
-.header-link:focus{
-    color: #2196F3;
+    color: var(--buton-bg);
 }
 .section-advertising{
     padding-top: 94px;
@@ -105,7 +74,7 @@ padding-bottom: 94px;
 }
 .advertising-button:hover{
     background: var(--buton-bg);
-    color: white;
+    color: var(--footer-a);
 }
 .advertising-button:focus{
     background: var(--buton-bg);
@@ -132,7 +101,7 @@ footer{
     padding-bottom: 60px;
 }
 .footer-logo{
-    color: #FFF;
+    color: var(--footer-a);
     font-size: 26px;
     font-family: "Raleway";
     font-weight: 700;
