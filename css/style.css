@@ -68,9 +68,9 @@ body{
  }
 
  .header-list{
-     display: flex;
-     gap: 50px;
-     margin-left: auto;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
  }
  .header-link{
      color: var(--text-color);
@@ -136,12 +136,18 @@ button{
     padding-top: 94px;
     padding-bottom: 197px;
 }
+.details-list{
+    display: flex;
+    gap: 30px;
+    
+}
 .details-subtitle{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.15;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 10px;
     
     
     }
@@ -160,6 +166,11 @@ p{
     padding-top: 47px;
     padding-bottom: 94px;
 }
+.work-list{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
 .work-title{
     text-align: center;
     font-size: 36px;
@@ -167,10 +178,18 @@ p{
     line-height: 42px;
     letter-spacing: 1.08px;
 }
+.work-img{
+    width: 370px;
+height: 294px;
+}
 .section-team{
     background-color: var(--section-bg);
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.team-list{
+    display: flex;
+    gap: 30px;
 }
 .team-title{
     text-align: center;
@@ -179,11 +198,17 @@ p{
     line-height: 42px;
     letter-spacing: 1.08px;
 }
+.team-img{
+    width: 270px;
+height: 260px;
+margin-bottom: 30px;
+}
 .team-subtitle{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.1875;
     letter-spacing: 0.48px;
+    margin-bottom: 10px;
     }
     .team-text{
     font-size: 16px;
@@ -197,13 +222,7 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.footer-link{
-    color: var(--footer-a2);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.72;
-    letter-spacing: 0.42px;
-}  
+
 .footer-logo{
     color: var(--footer-a);
     font-size: 26px;
@@ -211,6 +230,7 @@ footer{
     font-weight: 700;
     line-height: 1.39;
     letter-spacing: 0.78px;
+    margin-bottom: 20px;
     
     
 }
@@ -220,7 +240,16 @@ footer{
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
+    
 }
+.footer-link{
+    color: var(--footer-a2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.72;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}  
 
 
     
