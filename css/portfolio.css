@@ -90,9 +90,23 @@ padding-bottom: 94px;
 .advertising-list{
     display: flex;
     gap: 8px;
-    padding-left: 297px;
+    justify-content: center;
     margin-bottom: 50px;
     
+}
+button{
+    width: 130px;
+height: 38px;
+flex-shrink: 0;
+    border-radius: 4px;
+    
+}
+.advertising-button{
+    padding-left: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 25px;
+    font-family: Roboto;
 }
 .advertising-button:hover{
     background: var(--buton-bg);
@@ -105,18 +119,24 @@ padding-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    text-align: center;
 }
 .advertising-item{
     flex-basis: calc((100% - 90px) / 4);
 }
 
-
+.advertising-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--footer-a);
+    
+}
 .advertising-title{
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 1.08px;
-    margin-top: 20px;
+    
     }
     .advertising-text{
     font-size: 16px;
@@ -141,6 +161,9 @@ footer{
     font-weight: 700;
     line-height: 1.39;
     letter-spacing: 0.78px;
+    
+}
+.logo-link2{
     margin-bottom: 20px;
 }
 .footer-link2{
@@ -157,7 +180,7 @@ footer{
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
-    margin-top: 9px;
+    padding-top: 9px;
 }
 
 

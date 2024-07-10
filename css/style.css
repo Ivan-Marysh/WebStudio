@@ -122,19 +122,25 @@ button{
     border-radius: 4px;
     background-color: var(--buton-bg);
     color: var(--footer-a);
+    width: 216px;
+height: 50px;
+flex-shrink: 0;
 }
 
 
 .business-button{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.875;
-    letter-spacing: 0.96px;
-}
+    color: var(--footer-a);
+
+
+font-family: Roboto;
+padding-left: 32px;
+padding-bottom: 10px;
+padding-right: 32px;
+padding-top: 10px;
+} 
 .section-details{
     padding-top: 94px;
-    padding-bottom: 197px;
+    
 }
 .details-list{
     display: flex;
@@ -163,7 +169,7 @@ p{
     color: var(--text-color);
 }
 .section-work{
-    padding-top: 47px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 .work-list{
@@ -177,6 +183,7 @@ p{
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 .work-img{
     width: 370px;
@@ -190,6 +197,7 @@ height: 294px;
 .team-list{
     display: flex;
     gap: 30px;
+    text-align: center;
 }
 .team-title{
     text-align: center;
@@ -197,11 +205,17 @@ height: 294px;
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 .team-img{
     width: 270px;
 height: 260px;
-margin-bottom: 30px;
+
+}
+.team-div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--footer-a);
 }
 .team-subtitle{
     font-size: 16px;
@@ -209,6 +223,7 @@ margin-bottom: 30px;
     line-height: 1.1875;
     letter-spacing: 0.48px;
     margin-bottom: 10px;
+    
     }
     .team-text{
     font-size: 16px;
@@ -230,9 +245,12 @@ footer{
     font-weight: 700;
     line-height: 1.39;
     letter-spacing: 0.78px;
+    
+    
+    
+}
+.logo-link2{
     margin-bottom: 20px;
-    
-    
 }
 .footer-link2{
     color: var(--footer-a);
@@ -242,6 +260,9 @@ footer{
     letter-spacing: 0.42px;
     
     
+    
+    
+    
 }
 .footer-link{
     color: var(--footer-a2);
@@ -249,7 +270,7 @@ footer{
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
-    margin-top: 9px;
+    padding-top: 9px;
 }  
 
 
