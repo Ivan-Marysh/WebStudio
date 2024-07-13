@@ -84,7 +84,7 @@ body{
     color: var(--buton-bg);
 }
 .section-advertising{
-    padding-top: 94px;
+   
 padding-bottom: 94px;
 }
 .advertising-list{
@@ -119,16 +119,18 @@ flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    text-align: center;
+   
 }
 .advertising-item{
-    flex-basis: calc((100% - 90px) / 4);
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .advertising-div{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: var(--footer-a);
+    border: 1px solid #EEE;
+    padding-left: 24px;
     
 }
 .advertising-title{
@@ -172,6 +174,7 @@ footer{
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
+    
 }
     
 .footer-link{
@@ -180,7 +183,7 @@ footer{
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 

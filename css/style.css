@@ -259,10 +259,7 @@ footer{
     line-height: 1.72;
     letter-spacing: 0.42px;
     
-    
-    
-    
-    
+  
 }
 .footer-link{
     color: var(--footer-a2);
@@ -270,7 +267,8 @@ footer{
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
-    padding-top: 9px;
+    margin-top: 9px;
+    
 }  
 
 
