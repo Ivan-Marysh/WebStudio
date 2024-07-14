@@ -97,10 +97,15 @@ body{
 }
 
  .section-business{
-    background-color:  var(--footer-bg);
+    background-image: url(../img/development1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(47, 48, 58, 0.40);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+
 }
 .business-title{
     width: 696px;
@@ -146,6 +151,24 @@ padding-top: 10px;
     display: flex;
     gap: 30px;
     
+}
+.details-div{
+    border-radius: 4px;
+    background-color: var(--section-bg);
+    padding-left: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+.details-img{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+
+    
+
+
 }
 .details-subtitle{
     font-size: 14px;
@@ -249,7 +272,7 @@ footer{
     
     
 }
-.logo-link2{
+.footer-div{
     margin-bottom: 20px;
 }
 .footer-link2{
@@ -261,13 +284,16 @@ footer{
     
   
 }
+.footer-item{
+    margin-top: 9px;
+}
 .footer-link{
     color: var(--footer-a2);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.72;
     letter-spacing: 0.42px;
-    margin-top: 9px;
+    
     
 }  
 
