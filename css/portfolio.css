@@ -16,7 +16,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: red solid;
+    
 }
 .header{
     padding-top: 24px;
@@ -116,7 +116,6 @@ flex-shrink: 0;
 .advertising-button:hover{
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 
-
     background: var(--buton-bg);
     color: var(--footer-a);
 }
@@ -199,9 +198,3 @@ footer{
     letter-spacing: 0.42px;
     margin-top: 9px;
 }
-
-
-
-
-
-

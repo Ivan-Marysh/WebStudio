@@ -23,7 +23,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: red solid;
+    
 }
 .header{
     padding-top: 24px;
@@ -183,8 +183,6 @@ padding-top: 10px;
     background-image: url(../img/astronaut1.png);
 }
 
-
-
 .details-subtitle{
     font-size: 14px;
     font-weight: 700;
@@ -310,13 +308,4 @@ footer{
     letter-spacing: 0.42px;
     
     
-}  
-
-
-    
-
-
-
-
-
-
+}
