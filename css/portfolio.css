@@ -21,6 +21,7 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 2px solid #ECECEC;
 }
 .header-box{
     display: flex;
@@ -71,6 +72,9 @@ body{
     line-height: 1.15;
     letter-spacing: 0.28px;
 }
+.active{
+    color: var(--buton-bg);
+}
 .nav-link:hover{
     color: var(--buton-bg);
 }
@@ -84,8 +88,8 @@ body{
     color: var(--buton-bg);
 }
 .section-advertising{
-   
 padding-bottom: 94px;
+padding-top: 94px;
 }
 .advertising-list{
     display: flex;
@@ -107,8 +111,12 @@ flex-shrink: 0;
     padding-bottom: 6px;
     padding-right: 25px;
     font-family: Roboto;
+    border: none;
 }
 .advertising-button:hover{
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+
     background: var(--buton-bg);
     color: var(--footer-a);
 }
@@ -124,6 +132,9 @@ flex-shrink: 0;
 .advertising-item{
     flex-basis: calc((100% - 60px) / 3);
 }
+.advertising-item:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 
 .advertising-div{
     padding-top: 20px;
@@ -131,6 +142,7 @@ flex-shrink: 0;
     background-color: var(--footer-a);
     border: 1px solid #EEE;
     padding-left: 24px;
+    border-top: none;
     
 }
 .advertising-title{
