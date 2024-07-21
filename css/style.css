@@ -23,6 +23,10 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> d94a316b5b644e1d1e1b391ee244c03369735581
 }
 .header{
     padding-top: 24px;
@@ -79,7 +83,9 @@ body{
      letter-spacing: 0.28px;
  }
 
- 
+ .active{
+    color: var(--buton-bg);
+ }
 
  
  .nav-link:hover{
@@ -96,7 +102,7 @@ body{
 }
 
  .section-business{
-    background-image: url(../img/development1.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/development1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -126,9 +132,11 @@ button{
     border-radius: 4px;
     background-color: var(--buton-bg);
     color: var(--footer-a);
-    width: 216px;
-height: 50px;
-flex-shrink: 0;
+border: none;
+padding: 10px 32px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+
 }
 
 
@@ -163,11 +171,21 @@ padding-top: 10px;
     display: block;
     border-radius: 4px;
     margin-bottom: 30px;
-    padding-left: 100px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    padding-right: 100px;
 }
+
+
+.details-item:nth-child(2)::before{
+    background-image: url(../img/clock1.png);
+}
+
+.details-item:nth-child(3)::before{
+    background-image: url(../img/diagram1.png);
+}
+
+.details-item:nth-child(4)::before{
+    background-image: url(../img/astronaut1.png);
+}
+
 .details-subtitle{
     font-size: 14px;
     font-weight: 700;
@@ -293,13 +311,4 @@ footer{
     letter-spacing: 0.42px;
     
     
-}  
-
-
-    
-
-
-
-
-
-
+}
