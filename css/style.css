@@ -11,6 +11,7 @@
     --footer-a2: rgba(255, 255, 255, 0.60);
     --header-href: #212121;
     --logo-color: #000;
+    --color-svg: #AFB1B8;
 
 
 }
@@ -72,6 +73,7 @@ body{
     gap: 50px;
     margin-left: auto;
  }
+
  .header-link{
      color: var(--text-color);
      font-size: 14px;
@@ -79,6 +81,19 @@ body{
      line-height: 1.15;
      letter-spacing: 0.28px;
  }
+
+ .header-svg{
+    width: 16px;
+height: 12px;
+fill: var(--text-color);
+ }
+
+.header-svg:hover{
+    fill: var(--buton-bg);
+}
+.header-svg:focus{
+    fill: var(--buton-bg);
+}
 
  .active{
     color: var(--buton-bg);
@@ -90,12 +105,14 @@ body{
 }
 .header-link:hover{
     color:  var(--buton-bg);
+   
 }
 .nav-link:focus{
     color: var(--buton-bg);
 }
 .header-link:focus{
     color: var(--buton-bg);
+    
 }
 
  .section-business{
@@ -235,6 +252,8 @@ height: 294px;
     gap: 30px;
     text-align: center;
 }
+
+
 .team-title{
     text-align: center;
     font-size: 36px;
@@ -252,6 +271,8 @@ height: 260px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: var(--footer-a);
+    
+    
 }
 .team-subtitle{
     font-size: 16px;
@@ -268,8 +289,48 @@ height: 260px;
     letter-spacing: 0.48px;
     }
     
+.team-div2{
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+}
+
 .team-svg{
-    background-color: aqua;
+    fill: var(--color-svg);
+    width: 20px;
+height: 20px;
+     margin-top: 28px;
+     
+}
+
+.team-svg:hover{
+background-color: var(--buton-bg);
+border-radius: 10px;
+
+}
+.team-svg:focus{
+background-color: var(--buton-bg);
+border-radius: 10px;
+
+
+}
+
+.section-company{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.company-title{
+    color: var(--header-href);
+
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
 }
 
 footer{
