@@ -306,18 +306,22 @@ height: 20px;
 .team-svg:hover{
 background-color: var(--buton-bg);
 border-radius: 10px;
+fill: var(--footer-a);
 
 }
 .team-svg:focus{
 background-color: var(--buton-bg);
 border-radius: 10px;
-
+fill: var(--footer-a);
 
 }
+
+
 
 .section-company{
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 .company-title{
@@ -331,6 +335,15 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 margin-bottom: 50px;
+}
+
+.company-svg{
+    width: 106px;
+height: 60px;
+fill: var(--color-svg);
+background-color: var(--footer-a);
+border-radius: 4px;
+border: 1px solid var(--color-svg);
 }
 
 footer{
