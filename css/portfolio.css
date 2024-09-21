@@ -167,6 +167,11 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.footer-div{
+    margin-bottom: 20px;
+}
+
 .footer-logo{
     color: var(--footer-a);
     font-size: 26px;
