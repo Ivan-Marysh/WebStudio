@@ -227,6 +227,7 @@ p{
     align-items: center;
     display: flex;
     gap: 30px;
+    text-align: center;
 }
 .work-title{
     text-align: center;
@@ -240,6 +241,26 @@ p{
     width: 370px;
 height: 294px;
 }
+
+.work-title2{
+    /* color: var(--footer-a); */
+
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+background: rgba(47, 48, 58, 0.80);
+
+
+width: 370px;
+height: 70px;
+position: absolute;
+}
+
 .section-team{
     background-color: var(--section-bg);
     padding-top: 94px;
