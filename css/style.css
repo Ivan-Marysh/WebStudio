@@ -225,9 +225,10 @@ p{
 }
 .work-list{
     align-items: center;
+    justify-content: center;
     display: flex;
     gap: 30px;
-    text-align: center;
+    
 }
 .work-title{
     text-align: center;
@@ -240,12 +241,13 @@ p{
 .work-img{
     width: 370px;
 height: 294px;
+
 }
 
 .work-title2{
-    /* color: var(--footer-a); */
+    color: var(--footer-a);
 
-text-align: center;
+    text-align: center;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -259,6 +261,9 @@ background: rgba(47, 48, 58, 0.80);
 width: 370px;
 height: 70px;
 position: absolute;
+top: 1428px;
+padding: 27px;
+
 }
 
 .section-team{
