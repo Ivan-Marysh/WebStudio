@@ -29,6 +29,7 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 2px solid #ECECEC;
 }
 .header-box{
     display: flex;
@@ -110,6 +111,7 @@ fill: var(--text-color);
         fill: var(--buton-bg);
        }
 }
+
 
  .section-business{
     background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/development1.jpg);
