@@ -377,7 +377,7 @@ footer{
 
 .footer-box{
     display: flex;
-    
+    align-items: baseline;
 }
 
 .footer-logo{
