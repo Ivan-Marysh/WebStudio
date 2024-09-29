@@ -65,6 +65,7 @@ body{
     display: flex;
     gap: 50px;
     margin-left: auto;
+    
  }
 
  .header-link{
@@ -73,13 +74,24 @@ body{
      font-weight: 500;
      line-height: 1.15;
      letter-spacing: 0.28px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
  }
 
  .header-svg{
     width: 16px;
 height: 12px;
 fill: var(--text-color);
+
  }
+
+.header-svg2{
+    width: 10px;
+height: 16px;
+
+}
+
  .active{
     color: var(--buton-bg);
  }
@@ -247,11 +259,11 @@ text-transform: uppercase;
 
 .footer-list2{
     display: flex;
-    gap: 34px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .footer-svg-link{
-    margin-top: 32px;
     width: 44px;
 height: 44px;
 border: 1px ;
@@ -274,3 +286,4 @@ align-items: center;
     width: 20px;
 height: 20px;
 }
+
