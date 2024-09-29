@@ -73,6 +73,7 @@ body{
     display: flex;
     gap: 50px;
     margin-left: auto;
+    
  }
 
  .header-link{
@@ -87,7 +88,16 @@ body{
     width: 16px;
 height: 12px;
 fill: var(--text-color);
+margin-right: 10px;
  }
+
+.header-svg2{
+    width: 10px;
+height: 16px;
+position: relative;
+top: 3px;
+}
+
  .active{
     color: var(--buton-bg);
  }
@@ -314,13 +324,13 @@ height: 260px;
     }
     
 .team-div2{
+    margin-top: 16px;
     display: flex;
-    gap: 34px;
+    gap: 10px;
     justify-content: center;
 }
 
 .team-link{
-    margin-top: 16px;
     width: 44px;
 height: 44px;
 border: 1px solid var(--footer-a);
@@ -332,6 +342,12 @@ align-items: center;
 }
 
 .team-link:hover{
+    background-color: var(--buton-bg);
+    .team-svg{
+        fill: var(--footer-a);
+    }
+}
+.team-link:focus{
     background-color: var(--buton-bg);
     .team-svg{
         fill: var(--footer-a);
@@ -371,30 +387,36 @@ margin-bottom: 50px;
   gap: 30px;
 }
 
+.company-link{
+    width: 170px;
+height: 92px;
+border-radius: 4px;
+border: 1px solid var(--color-svg);
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+.company-link:hover{
+    border: 1px solid var(--buton-bg);
+   .company-svg{
+     fill: var(--buton-bg);
+   }
+}
+.company-link:focus{
+    border: 1px solid var(--buton-bg);
+    .company-svg{
+      fill: var(--buton-bg);
+    }
+ }
+
 .company-svg{
-    /* width: 106px;
-height: 60px; */
+    width: 106px;
+height: 60px;
 fill: var(--color-svg);
 background-color: var(--footer-a);
-/* border-radius: 4px;
-border: 1px solid var(--color-svg); */
-}
 
-.company-svg:hover{
-   fill: var(--buton-bg);
-   border: 1px solid var(--buton-bg);
-}
-.company-svg:focus{
-    fill: var(--buton-bg);
-    border: 1px solid var(--buton-bg);
- }
- 
-
-.company-svg-b{
-    border-radius: 4px;
-border: 1px solid var(--color-svg);
-width: 170px;
-height: 92px;
 }
 
 footer{
@@ -466,11 +488,11 @@ text-transform: uppercase;
 
 .footer-list2{
     display: flex;
-    gap: 34px;
+    gap: 10px;
+    margin-top: 32px;
 }
 
 .footer-svg-link{
-    margin-top: 32px;
     width: 44px;
 height: 44px;
 border: 1px ;
