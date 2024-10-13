@@ -666,7 +666,7 @@ margin-bottom: 10px;
 
   .modal-input:hover{
     border: 1px solid var(--buton-bg);
-    .modal-svg{
+    .modal-svg:hover{
         fill: var(--buton-bg);
     }
   }
