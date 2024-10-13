@@ -664,6 +664,19 @@ border: 1px solid rgba(33, 33, 33, 0.20);
 margin-bottom: 10px;
 }
 
+  .modal-input:hover{
+    border: 1px solid var(--buton-bg);
+    .modal-svg{
+        fill: var(--buton-bg);
+    }
+  }
+  .modal-input:focus{
+    border: 1px solid var(--buton-bg);
+    .modal-svg{
+        fill: var(--buton-bg);
+    }
+  }
+
 .modal-svg{
     width: 18px;
 height: 18px;
@@ -700,18 +713,26 @@ line-height: normal;
 letter-spacing: 0.12px;
 }
 
+.modal-textarea:hover{
+    border: 1px solid var(--buton-bg);
+}
+.modal-textarea:focus{
+    border: 1px solid var(--buton-bg);
+}
+
 .modaly-label-checkbox{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    /* gap: 8px; */
 }
 
 .modal-inputt-box{
     width: 16px;
 height: 15px;
 }
+
 .modal-text{
     color: var(--text-color);
 font-family: "Roboto";
@@ -719,6 +740,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.42px;
+margin-right: 8px;
 }
 
 .modal-link{
@@ -747,6 +769,7 @@ border: none;
 margin-top: 30px;
 margin-left: 124px;
 margin-right: 124px;
+
 }
 
 
@@ -763,6 +786,20 @@ height: 30px;
  right: 413px; */
  top: 8px;
  right: 8px;
+}
+
+.modal-btn:hover{
+    border: 1px solid var(--buton-bg);
+    .modal-svg2{
+        fill: var(--buton-bg);
+    }
+}
+
+.modal-btn:focus{
+    border: 1px solid var(--buton-bg);
+    .modal-svg2{
+        fill: var(--buton-bg);
+    }
 }
 
 .modal-svg2{
