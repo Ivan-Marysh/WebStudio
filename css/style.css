@@ -788,21 +788,18 @@ height: 30px;
  right: 8px;
 }
 
-.modal-btn:hover{
-    border: 1px solid var(--buton-bg);
-    .modal-svg2{
-        fill: var(--buton-bg);
-    }
-}
 
-.modal-btn:focus{
-    border: 1px solid var(--buton-bg);
-    .modal-svg2{
-        fill: var(--buton-bg);
-    }
-}
 
 .modal-svg2{
 width: 18px;
 height: 18px;
+}
+.modal-svg2:hover{
+
+        fill: var(--buton-bg);
+}
+
+.modal-svg2:focus{
+        fill: var(--buton-bg);
+    
 }
