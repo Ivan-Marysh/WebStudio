@@ -69,6 +69,7 @@ body{
      letter-spacing: 0.28px;
  }
 
+
  .header-list{
     display: flex;
     gap: 50px;
@@ -105,6 +106,22 @@ height: 16px;
  }
 
  
+ .nav-link::after{
+    content: " ";
+    width: 100%;
+height: 4px;
+background-color: var(--buton-bg);
+border-radius: 10px;
+display: block;
+margin-top: 28px;
+opacity: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+
  .nav-link:hover{
     color:  var(--buton-bg);
 }
@@ -666,7 +683,7 @@ margin-bottom: 10px;
 
   .modal-input:hover{
     border: 1px solid var(--buton-bg);
-    .modal-svg:hover{
+    .modal-svg{
         fill: var(--buton-bg);
     }
   }
