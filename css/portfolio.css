@@ -84,12 +84,18 @@ body{
     width: 16px;
 height: 12px;
 fill: var(--text-color);
+transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
  }
 
 .header-svg2{
     width: 10px;
 height: 16px;
+transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -161,8 +167,11 @@ flex-shrink: 0;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-right: 25px;
-    font-family: Roboto;
+    font-family: "Roboto";
     border: none;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .advertising-button:hover{
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
@@ -181,6 +190,9 @@ flex-shrink: 0;
 }
 .advertising-item{
     flex-basis: calc((100% - 60px) / 3);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .advertising-item:hover{
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -322,6 +334,10 @@ background-color: rgba(255, 255, 255, 0.10);
 display: flex;
 justify-content: center;
 align-items: center;
+transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     
 }
 
 .footer-svg-link:hover{

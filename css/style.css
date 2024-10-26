@@ -67,6 +67,9 @@ body{
      font-weight: 500;
      line-height: 1.15;
      letter-spacing: 0.28px;
+     transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
@@ -86,18 +89,26 @@ body{
      display: flex;
      align-items: center;
      gap: 10px;
+     
  }
 
  .header-svg{
     width: 16px;
 height: 12px;
 fill: var(--text-color);
+transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
  }
 
 .header-svg2{
     width: 10px;
 height: 16px;
+transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
@@ -380,6 +391,9 @@ align-items: center;
     width: 20px;
 height: 20px;
      /* margin-top: 28px; */
+     transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
      
 }
 
@@ -417,6 +431,7 @@ display: flex;
 justify-content: center;
 align-content: center;
 align-items: center;
+
 }
 
 .company-link:hover{
@@ -437,7 +452,9 @@ align-items: center;
 height: 60px;
 fill: var(--color-svg);
 background-color: var(--footer-a);
-
+transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer{
@@ -522,6 +539,10 @@ background-color: rgba(255, 255, 255, 0.10);
 display: flex;
 justify-content: center;
 align-items: center;
+transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     
 }
 
 .footer-svg-link:hover{
@@ -535,6 +556,7 @@ align-items: center;
     fill: var(--footer-a);
     width: 20px;
 height: 20px;
+
 }
 
 .footer-div3{
