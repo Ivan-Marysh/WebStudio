@@ -69,6 +69,7 @@ margin-bottom: 10px;
 transition-property: border, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 42px;
 }
 
   .modal-input:hover{
@@ -89,7 +90,7 @@ transition-property: border, fill;
 height: 18px;
 position: absolute;
 top: 11px;
-right: 430px;
+left: 12px;
 }
 
 .modal-label-comment{

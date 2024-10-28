@@ -560,7 +560,7 @@ footer {
   height: 20px;
 }
 
-.footer-div3 {
+.footer-form {
   margin-left: 93px;
 }
 
@@ -576,7 +576,7 @@ footer {
   margin-bottom: 20px;
 }
 
-input {
+.footer-input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -696,6 +696,7 @@ input {
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 42px;
 }
 
 .modal-input:hover {
@@ -717,7 +718,7 @@ input {
   height: 18px;
   position: absolute;
   top: 11px;
-  right: 430px;
+  left: 12px;
 }
 
 .modal-label-comment {
