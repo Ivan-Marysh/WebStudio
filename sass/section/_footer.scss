@@ -2,7 +2,7 @@ footer{
     background-color: var(--footer-bg);
     padding-top: 60px;
     padding-bottom: 60px;
-    position: relative;
+   
 }
 
 .footer-box{
@@ -103,6 +103,8 @@ height: 20px;
 
 .footer-form{
     margin-left: 93px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-title2{
@@ -142,6 +144,11 @@ margin-bottom: 20px;
     padding-left: 16px;
 }
 
+.footer-divv3{
+    position: relative;
+    
+}
+
 .footer-btn{
     width: 200px;
 height: 50px;
@@ -172,8 +179,8 @@ height: 24px;
 fill: var(--footer-a);
 
 position: absolute;
-top: 124px;
-right: 124px;
+top: 13px;
+right: 8px;
 }
 
 

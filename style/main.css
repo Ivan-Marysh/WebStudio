@@ -469,7 +469,6 @@ footer {
   background-color: var(--footer-bg);
   padding-top: 60px;
   padding-bottom: 60px;
-  position: relative;
 }
 
 .footer-box {
@@ -562,6 +561,8 @@ footer {
 
 .footer-form {
   margin-left: 93px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-title2 {
@@ -597,6 +598,10 @@ footer {
   padding-left: 16px;
 }
 
+.footer-divv3 {
+  position: relative;
+}
+
 .footer-btn {
   width: 200px;
   height: 50px;
@@ -625,8 +630,8 @@ footer {
   height: 24px;
   fill: var(--footer-a);
   position: absolute;
-  top: 124px;
-  right: 124px;
+  top: 13px;
+  right: 8px;
 }
 
 .backdrop {
