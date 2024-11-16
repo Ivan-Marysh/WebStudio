@@ -1,0 +1,59 @@
+.section-company{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.company-title{
+    color: var(--header-href);
+
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+.company-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.company-link{
+    width: 170px;
+height: 92px;
+border-radius: 4px;
+border: 1px solid var(--color-svg);
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+}
+
+.company-link:hover{
+    border: 1px solid var(--buton-bg);
+   .company-svg{
+     fill: var(--buton-bg);
+   }
+}
+.company-link:focus{
+    border: 1px solid var(--buton-bg);
+    .company-svg{
+      fill: var(--buton-bg);
+    }
+ }
+
+.company-svg{
+    width: 106px;
+height: 60px;
+fill: var(--color-svg);
+background-color: var(--footer-a);
+transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

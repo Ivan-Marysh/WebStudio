@@ -1,0 +1,175 @@
+footer {
+  background-color: var(--footer-bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo {
+  color: var(--footer-a);
+  font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 700;
+  line-height: 1.39;
+  letter-spacing: 0.78px;
+}
+
+.footer-divv {
+  margin-bottom: 20px;
+}
+
+.footer-link2 {
+  color: var(--footer-a);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.72;
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+.footer-item {
+  margin-top: 9px;
+}
+.footer-link {
+  color: var(--footer-a2);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.72;
+  letter-spacing: 0.42px;
+}
+
+.footer-div2 {
+  margin-left: 82px;
+}
+
+.footer-title {
+  color: var(--footer-a);
+
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.footer-list2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-svg-link {
+  width: 44px;
+  height: 44px;
+  border: 1px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-svg-link:hover {
+  background-color: var(--buton-bg);
+}
+.footer-svg-link:focus {
+  background-color: var(--buton-bg);
+}
+
+.footer-svg {
+  fill: var(--footer-a);
+  width: 20px;
+  height: 20px;
+}
+
+.footer-form {
+  margin-left: auto;
+}
+
+.footer-title2 {
+  color: var(--footer-a);
+
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-test{
+    display: flex;
+    gap: 12px;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  background: rgba(33, 150, 243, 0);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+//   margin-right: 14px;
+}
+
+.footer-input {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  padding-left: 16px;
+}
+
+.footer-divv3 {
+  position: relative;
+}
+
+.footer-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--buton-bg);
+  color: var(--footer-a);
+  border: none;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-button {
+  color: var(--footer-a);
+
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  padding-right: 63px;
+}
+
+.footer-svg2 {
+  width: 24px;
+  height: 24px;
+  fill: var(--footer-a);
+
+  position: absolute;
+  top: 13px;
+  right: 28px;
+}

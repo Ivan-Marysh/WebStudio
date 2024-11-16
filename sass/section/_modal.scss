@@ -1,0 +1,221 @@
+.backdrop{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.20);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+   
+}
+
+.modal{
+    position: relative;
+    padding: 40px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden .modal{
+    transform: translate(1000px, 1000px) rotate(360deg); 
+}
+
+.modal-title{
+    margin-bottom: 12px;
+    color: var(--header-href);
+text-align: center;
+font-family: "Roboto";
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+
+.modal-label{
+    display: block;
+    margin-bottom: 4px;
+    color: var(--text-color);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+
+
+.modal-div{
+    position: relative;
+}
+
+.modal-input{
+    width: 448px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+margin-bottom: 10px;
+transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 42px;
+}
+
+  .modal-input:hover{
+    border: 1px solid var(--buton-bg);
+    .modal-svg{
+        fill: var(--buton-bg);
+    }
+  }
+  .modal-input:focus{
+    border: 1px solid var(--buton-bg);
+    .modal-svg{
+        fill: var(--buton-bg);
+    }
+  }
+
+.modal-svg{
+    width: 18px;
+height: 18px;
+position: absolute;
+top: 11px;
+left: 12px;
+}
+
+.modal-label-comment{
+margin-bottom: 4px;
+display: block;
+color: var(--text-color);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+
+}
+
+
+.modal-textarea{
+    resize: none;
+    width: 448px;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+padding: 12px 16px;
+color: rgba(117, 117, 117, 0.50);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-textarea:hover{
+    border: 1px solid var(--buton-bg);
+}
+.modal-textarea:focus{
+    border: 1px solid var(--buton-bg);
+}
+
+.modaly-label-checkbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; */
+}
+
+.modal-inputt-box{
+    width: 16px;
+height: 15px;
+}
+
+.modal-text{
+    color: var(--text-color);
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.42px;
+margin-right: 8px;
+}
+
+.modal-link{
+    color: var(--buton-bg);
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+.modal-button{
+    width: 200px;
+height: 50px;
+    color: var(--footer-a);
+text-align: center;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: 0.96px;
+padding: 10px 52px;
+border-radius: 4px;
+background-color: var(--buton-bg);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+margin-top: 30px;
+margin-left: 124px;
+margin-right: 124px;
+
+}
+
+
+.modal-btn{
+    width: 30px;
+height: 30px;
+ border-radius: 50%;
+ border: 1px solid rgba(0, 0, 0, 0.10);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ /* top: 20px;
+ right: 413px; */
+ top: 8px;
+ right: 8px;
+}
+
+
+
+.modal-svg2{
+width: 18px;
+height: 18px;
+transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-svg2:hover{
+
+        fill: var(--buton-bg);
+}
+
+.modal-svg2:focus{
+        fill: var(--buton-bg);
+    
+}
