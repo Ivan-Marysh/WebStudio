@@ -1,13 +1,13 @@
-.section-details{
+.section__details{
     padding-top: 94px;
     
 }
-.details-list{
+.details__list{
     display: flex;
     gap: 30px;
     
 }
-.details-item::before{
+.details__item::before{
     content: "";
     width: 270px;
     height: 120px;
@@ -15,26 +15,26 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
-    background-color: var(--section-bg);
+    background-color: $section-bg;
     display: block;
     border-radius: 4px;
     margin-bottom: 30px;
 }
 
 
-.details-item:nth-child(2)::before{
+.details__item:nth-child(2)::before{
     background-image: url(../img/clock1.png);
 }
 
-.details-item:nth-child(3)::before{
+.details__item:nth-child(3)::before{
     background-image: url(../img/diagram1.png);
 }
 
-.details-item:nth-child(4)::before{
+.details__item:nth-child(4)::before{
     background-image: url(../img/astronaut1.png);
 }
 
-.details-subtitle{
+.details__subtitle{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.15;
@@ -44,7 +44,7 @@
     
     
     }
-    .details-text{
+    .details__text{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.72;

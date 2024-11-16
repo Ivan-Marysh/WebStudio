@@ -1,4 +1,4 @@
-.section-business{
+.section__business{
     background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/development1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -9,9 +9,9 @@
     text-align: center;
 
 }
-.business-title{
+.business__title{
     width: 696px;
-    color: var(--footer-a);
+    color: $footer-a;
 
 text-align: center;
 font-family: "Roboto";
@@ -25,12 +25,12 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 30px;
 }
-.business-btn{
+.business__btn{
     width: 216px;
 height: 50px;
     border-radius: 4px;
-    background-color: var(--buton-bg);
-    color: var(--footer-a);
+    background-color: $buton-bg;
+    color: $footer-a;
 border: none;
 padding: 10px 32px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -39,8 +39,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
-.business-button{
-    color: var(--footer-a);
+.business__button{
+    color: $footer-a;
 
 
 font-family: "Roboto";

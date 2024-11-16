@@ -32,9 +32,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(1000px, 1000px) rotate(360deg); 
 }
 
-.modal-title{
+.modal__title{
     margin-bottom: 12px;
-    color: var(--header-href);
+    color: $header-href;
 text-align: center;
 font-family: "Roboto";
 font-size: 20px;
@@ -44,10 +44,10 @@ letter-spacing: 0.6px;
 }
 
 
-.modal-label{
+.modal__label{
     display: block;
     margin-bottom: 4px;
-    color: var(--text-color);
+    color: $text-color;
 font-family: "Roboto";
 font-size: 12px;
 font-weight: 400;
@@ -56,11 +56,11 @@ letter-spacing: 0.12px;
 }
 
 
-.modal-div{
+.modal__div{
     position: relative;
 }
 
-.modal-input{
+.modal__input{
     width: 448px;
 height: 40px;
 border-radius: 4px;
@@ -72,20 +72,20 @@ transition-property: border, fill;
     padding-left: 42px;
 }
 
-  .modal-input:hover{
-    border: 1px solid var(--buton-bg);
-    .modal-svg{
-        fill: var(--buton-bg);
+  .modal__input:hover{
+    border: 1px solid $buton-bg;
+    .modal__svg{
+        fill: $buton-bg;
     }
   }
-  .modal-input:focus{
-    border: 1px solid var(--buton-bg);
-    .modal-svg{
-        fill: var(--buton-bg);
+  .modal__input:focus{
+    border: 1px solid $buton-bg;
+    .modal__svg{
+        fill: $buton-bg;
     }
   }
 
-.modal-svg{
+.modal__svg{
     width: 18px;
 height: 18px;
 position: absolute;
@@ -93,10 +93,10 @@ top: 11px;
 left: 12px;
 }
 
-.modal-label-comment{
+.modal__label-comment{
 margin-bottom: 4px;
 display: block;
-color: var(--text-color);
+color: $text-color;
 font-family: "Roboto";
 font-size: 12px;
 font-weight: 400;
@@ -106,7 +106,7 @@ letter-spacing: 0.12px;
 }
 
 
-.modal-textarea{
+.modal__textarea{
     resize: none;
     width: 448px;
 height: 120px;
@@ -124,14 +124,14 @@ transition-property: border;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea:hover{
-    border: 1px solid var(--buton-bg);
+.modal__textarea:hover{
+    border: 1px solid $buton-bg;
 }
-.modal-textarea:focus{
-    border: 1px solid var(--buton-bg);
+.modal__textarea:focus{
+    border: 1px solid $buton-bg;
 }
 
-.modaly-label-checkbox{
+.modaly__label-checkbox{
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -139,13 +139,13 @@ transition-property: border;
     /* gap: 8px; */
 }
 
-.modal-inputt-box{
+.modal__inputt-box{
     width: 16px;
 height: 15px;
 }
 
-.modal-text{
-    color: var(--text-color);
+.modal__text{
+    color: $text-color;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
@@ -154,8 +154,8 @@ letter-spacing: 0.42px;
 margin-right: 8px;
 }
 
-.modal-link{
-    color: var(--buton-bg);
+.modal__link{
+    color: $buton-bg;
 font-family: "Roboto";
 font-size: 14px;
 font-weight: 400;
@@ -164,10 +164,10 @@ letter-spacing: 0.42px;
 text-decoration-line: underline;
 }
 
-.modal-button{
+.modal__button{
     width: 200px;
 height: 50px;
-    color: var(--footer-a);
+    color: $footer-a;
 text-align: center;
 font-family: "Roboto";
 font-size: 16px;
@@ -176,7 +176,7 @@ line-height: 30px;
 letter-spacing: 0.96px;
 padding: 10px 52px;
 border-radius: 4px;
-background-color: var(--buton-bg);
+background-color: $buton-bg;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 border: none;
 margin-top: 30px;
@@ -186,7 +186,7 @@ margin-right: 124px;
 }
 
 
-.modal-btn{
+.modal__btn{
     width: 30px;
 height: 30px;
  border-radius: 50%;
@@ -203,19 +203,19 @@ height: 30px;
 
 
 
-.modal-svg2{
+.modal__svg2{
 width: 18px;
 height: 18px;
 transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-svg2:hover{
+.modal__svg2:hover{
 
-        fill: var(--buton-bg);
+        fill: $buton-bg;
 }
 
-.modal-svg2:focus{
-        fill: var(--buton-bg);
+.modal__svg2:focus{
+        fill: $buton-bg;
     
 }

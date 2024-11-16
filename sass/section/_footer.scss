@@ -1,16 +1,16 @@
 footer {
-  background-color: var(--footer-bg);
+  background-color: $footer-bg;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-box {
+.footer__box {
   display: flex;
   align-items: baseline;
 }
 
-.footer-logo {
-  color: var(--footer-a);
+.footer__logo {
+  color: $footer-a;
   font-size: 26px;
   font-family: "Raleway";
   font-weight: 700;
@@ -18,35 +18,35 @@ footer {
   letter-spacing: 0.78px;
 }
 
-.footer-divv {
+.footer__divv {
   margin-bottom: 20px;
 }
 
-.footer-link2 {
-  color: var(--footer-a);
+.footer__link2 {
+  color: $footer-a;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.72;
   letter-spacing: 0.42px;
   margin-top: 20px;
 }
-.footer-item {
+.footer__item {
   margin-top: 9px;
 }
-.footer-link {
-  color: var(--footer-a2);
+.footer__link {
+  color: $footer-a2;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.72;
   letter-spacing: 0.42px;
 }
 
-.footer-div2 {
+.footer__div2 {
   margin-left: 82px;
 }
 
-.footer-title {
-  color: var(--footer-a);
+.footer__title {
+  color: $footer-a;
 
   font-family: "Roboto";
   font-size: 14px;
@@ -57,13 +57,13 @@ footer {
   text-transform: uppercase;
 }
 
-.footer-list2 {
+.footer__list2 {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
 
-.footer-svg-link {
+.footer__svg-link {
   width: 44px;
   height: 44px;
   border: 1px;
@@ -77,25 +77,25 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-svg-link:hover {
-  background-color: var(--buton-bg);
+.footer__svg-link:hover {
+  background-color: $buton-bg;
 }
-.footer-svg-link:focus {
-  background-color: var(--buton-bg);
+.footer__svg-link:focus {
+  background-color: $buton-bg;
 }
 
-.footer-svg {
-  fill: var(--footer-a);
+.footer__svg {
+  fill: $footer-a;
   width: 20px;
   height: 20px;
 }
 
-.footer-form {
+.footer__form {
   margin-left: auto;
 }
 
-.footer-title2 {
-  color: var(--footer-a);
+.footer__title2 {
+  color: $footer-a;
 
   font-family: "Roboto";
   font-size: 14px;
@@ -107,12 +107,12 @@ footer {
   margin-bottom: 20px;
 }
 
-.footer-test{
+.footer__test{
     display: flex;
     gap: 12px;
 }
 
-.footer-input {
+.footer__input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -124,7 +124,7 @@ footer {
 //   margin-right: 14px;
 }
 
-.footer-input {
+.footer__input {
   color: rgba(255, 255, 255, 0.6);
 
   font-family: "Roboto";
@@ -136,23 +136,23 @@ footer {
   padding-left: 16px;
 }
 
-.footer-divv3 {
+.footer__divv3 {
   position: relative;
 }
 
-.footer-btn {
+.footer__btn {
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  background-color: var(--buton-bg);
-  color: var(--footer-a);
+  background-color: $buton-bg;
+  color: $footer-a;
   border: none;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.footer-button {
-  color: var(--footer-a);
+.footer__button {
+  color: $footer-a;
 
   text-align: center;
   font-family: "Roboto";
@@ -164,10 +164,10 @@ footer {
   padding-right: 63px;
 }
 
-.footer-svg2 {
+.footer__svg2 {
   width: 24px;
   height: 24px;
-  fill: var(--footer-a);
+  fill: $footer-a;
 
   position: absolute;
   top: 13px;
