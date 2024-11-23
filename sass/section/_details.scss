@@ -1,54 +1,54 @@
-.section__details{
+.details{
     padding-top: 94px;
     
-}
-.details__list{
-    display: flex;
-    gap: 30px;
-    
-}
-.details__item::before{
-    content: "";
-    width: 270px;
-    height: 120px;
-    background-image: url(../img/antena1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70px;
-    background-color: $section-bg;
-    display: block;
-    border-radius: 4px;
-    margin-bottom: 30px;
-}
-
-
-.details__item:nth-child(2)::before{
-    background-image: url(../img/clock1.png);
-}
-
-.details__item:nth-child(3)::before{
-    background-image: url(../img/diagram1.png);
-}
-
-.details__item:nth-child(4)::before{
-    background-image: url(../img/astronaut1.png);
-}
-
-.details__subtitle{
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    
-    
+    &__list{
+        display: flex;
+        gap: 30px;
+        
     }
-    .details__text{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.72;
-    letter-spacing: 0.42px;
-    
-    
+    &__item::before{
+        content: "";
+        width: 270px;
+        height: 120px;
+        background-image: url(../img/antena1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70px;
+        background-color: $section-bg;
+        display: block;
+        border-radius: 4px;
+        margin-bottom: 30px;
     }
+    
+    
+    &__item:nth-child(2)::before{
+        background-image: url(../img/clock1.png);
+    }
+    
+    &__item:nth-child(3)::before{
+        background-image: url(../img/diagram1.png);
+    }
+    
+    &__item:nth-child(4)::before{
+        background-image: url(../img/astronaut1.png);
+    }
+    
+    &__subtitle{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        
+        
+        }
+        &__text{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.72;
+        letter-spacing: 0.42px;
+        
+        
+        }
+}

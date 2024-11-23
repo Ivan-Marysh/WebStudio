@@ -1,59 +1,59 @@
-.section__company{
+.company{
     padding-top: 94px;
     padding-bottom: 94px;
 
-}
-
-.company__title{
-    color: $header-href;
-
-text-align: center;
-font-family: "Roboto";
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
-margin-bottom: 50px;
-}
-
-.company__list{
+    &__title{
+      color: $header-href;
+  
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+  }
+  
+  &__list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  &__link{
+      width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid $color-svg;
   display: flex;
   justify-content: center;
-  gap: 30px;
-}
-
-.company__link{
-    width: 170px;
-height: 92px;
-border-radius: 4px;
-border: 1px solid $color-svg;
-display: flex;
-justify-content: center;
-align-content: center;
-align-items: center;
-
-}
-
-.company__link:hover{
-    border: 1px solid $buton-bg;
-   .company__svg{
-     fill: $buton-bg;
+  align-content: center;
+  align-items: center;
+  
+  }
+  
+  &__link:hover{
+      border: 1px solid $buton-bg;
+     .company__svg{
+       fill: $buton-bg;
+     }
+  }
+  &__link:focus{
+      border: 1px solid $buton-bg;
+      .company__svg{
+        fill: $buton-bg;
+      }
    }
-}
-.company__link:focus{
-    border: 1px solid $buton-bg;
-    .company__svg{
-      fill: $buton-bg;
-    }
- }
-
-.company__svg{
-    width: 106px;
-height: 60px;
-fill: $color-svg;
-background-color: $footer-a;
-transition-property: border, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &__svg{
+      width: 106px;
+  height: 60px;
+  fill: $color-svg;
+  background-color: $footer-a;
+  transition-property: border, fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
 }
