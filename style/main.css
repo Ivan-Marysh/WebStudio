@@ -585,15 +585,10 @@ body {
   position: relative;
   padding: 40px;
   border-radius: 4px;
-  background: #fff;
+  background: #FFF;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.is-hidden .modal {
-  transform: translate(1000px, 1000px) rotate(360deg);
-}
-
 .modal__title {
   margin-bottom: 12px;
   color: #212121;
@@ -604,7 +599,6 @@ body {
   line-height: normal;
   letter-spacing: 0.6px;
 }
-
 .modal__label {
   display: block;
   margin-bottom: 4px;
@@ -615,11 +609,9 @@ body {
   line-height: normal;
   letter-spacing: 0.12px;
 }
-
 .modal__div {
   position: relative;
 }
-
 .modal__input {
   width: 448px;
   height: 40px;
@@ -631,21 +623,18 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding-left: 42px;
 }
-
 .modal__input:hover {
   border: 1px solid #2196F3;
 }
 .modal__input:hover .modal__svg {
   fill: #2196F3;
 }
-
 .modal__input:focus {
   border: 1px solid #2196F3;
 }
 .modal__input:focus .modal__svg {
   fill: #2196F3;
 }
-
 .modal__svg {
   width: 18px;
   height: 18px;
@@ -653,7 +642,6 @@ body {
   top: 11px;
   left: 12px;
 }
-
 .modal__label-comment {
   margin-bottom: 4px;
   display: block;
@@ -664,7 +652,6 @@ body {
   line-height: normal;
   letter-spacing: 0.12px;
 }
-
 .modal__textarea {
   resize: none;
   width: 448px;
@@ -682,15 +669,12 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal__textarea:hover {
   border: 1px solid #2196F3;
 }
-
 .modal__textarea:focus {
   border: 1px solid #2196F3;
 }
-
 .modal__label-checkbox {
   margin-top: 20px;
   display: flex;
@@ -698,12 +682,10 @@ body {
   align-items: center;
   /* gap: 8px; */
 }
-
 .modal__inputt-box {
   width: 16px;
   height: 15px;
 }
-
 .modal__text {
   color: #757575;
   font-family: "Roboto";
@@ -713,7 +695,6 @@ body {
   letter-spacing: 0.42px;
   margin-right: 8px;
 }
-
 .modal__link {
   color: #2196F3;
   font-family: "Roboto";
@@ -723,7 +704,6 @@ body {
   letter-spacing: 0.42px;
   text-decoration-line: underline;
 }
-
 .modal__button {
   width: 200px;
   height: 50px;
@@ -743,7 +723,6 @@ body {
   margin-left: 124px;
   margin-right: 124px;
 }
-
 .modal__btn {
   width: 30px;
   height: 30px;
@@ -758,7 +737,6 @@ body {
   top: 8px;
   right: 8px;
 }
-
 .modal__svg2 {
   width: 18px;
   height: 18px;
@@ -766,34 +744,33 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal__svg2:hover {
   fill: #2196F3;
 }
-
 .modal__svg2:focus {
   fill: #2196F3;
 }
 
-.section__advertising {
+.is-hidden .modal {
+  transform: translate(1000px, 1000px) rotate(360deg);
+}
+
+.advertising {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-
 .advertising__list {
   display: flex;
   gap: 8px;
   justify-content: center;
   margin-bottom: 50px;
 }
-
-button {
+.advertising__btn {
   width: 130px;
   height: 38px;
   flex-shrink: 0;
   border-radius: 4px;
 }
-
 .advertising__button {
   padding-left: 25px;
   padding-top: 6px;
@@ -805,28 +782,23 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .advertising__button:hover {
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
   background: #2196F3;
   color: #FFF;
 }
-
 .advertising__button:focus {
   background: #2196F3;
 }
-
 .advertising__list2 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .advertising__item {
   flex-basis: calc((100% - 60px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .advertising__item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
@@ -834,13 +806,11 @@ button {
   opacity: 1;
   transform: translate(0);
 }
-
 .advertising__img-box {
   position: relative;
   overflow: hidden;
   transition: transformY 1s, opacity 1s;
 }
-
 .advertising__text2 {
   width: 100%;
   height: 100%;
@@ -859,7 +829,6 @@ button {
   z-index: 100;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .advertising__div {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -868,14 +837,12 @@ button {
   padding-left: 24px;
   border-top: none;
 }
-
 .advertising__title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
 }
-
 .advertising__text {
   font-size: 16px;
   font-weight: 400;

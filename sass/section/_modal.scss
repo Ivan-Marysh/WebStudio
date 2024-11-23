@@ -26,13 +26,8 @@ border-radius: 4px;
 background: #FFF;
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.is-hidden .modal{
-    transform: translate(1000px, 1000px) rotate(360deg); 
-}
-
-.modal__title{
+&__title{
     margin-bottom: 12px;
     color: $header-href;
 text-align: center;
@@ -44,7 +39,7 @@ letter-spacing: 0.6px;
 }
 
 
-.modal__label{
+&__label{
     display: block;
     margin-bottom: 4px;
     color: $text-color;
@@ -56,11 +51,11 @@ letter-spacing: 0.12px;
 }
 
 
-.modal__div{
+&__div{
     position: relative;
 }
 
-.modal__input{
+&__input{
     width: 448px;
 height: 40px;
 border-radius: 4px;
@@ -72,20 +67,20 @@ transition-property: border, fill;
     padding-left: 42px;
 }
 
-  .modal__input:hover{
+  &__input:hover{
     border: 1px solid $buton-bg;
     .modal__svg{
         fill: $buton-bg;
     }
   }
-  .modal__input:focus{
+  &__input:focus{
     border: 1px solid $buton-bg;
     .modal__svg{
         fill: $buton-bg;
     }
   }
 
-.modal__svg{
+&__svg{
     width: 18px;
 height: 18px;
 position: absolute;
@@ -93,7 +88,7 @@ top: 11px;
 left: 12px;
 }
 
-.modal__label-comment{
+&__label-comment{
 margin-bottom: 4px;
 display: block;
 color: $text-color;
@@ -106,7 +101,7 @@ letter-spacing: 0.12px;
 }
 
 
-.modal__textarea{
+&__textarea{
     resize: none;
     width: 448px;
 height: 120px;
@@ -124,14 +119,14 @@ transition-property: border;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__textarea:hover{
+&__textarea:hover{
     border: 1px solid $buton-bg;
 }
-.modal__textarea:focus{
+&__textarea:focus{
     border: 1px solid $buton-bg;
 }
 
-.modaly__label-checkbox{
+&__label-checkbox{
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -139,12 +134,12 @@ transition-property: border;
     /* gap: 8px; */
 }
 
-.modal__inputt-box{
+&__inputt-box{
     width: 16px;
 height: 15px;
 }
 
-.modal__text{
+&__text{
     color: $text-color;
 font-family: "Roboto";
 font-size: 14px;
@@ -154,7 +149,7 @@ letter-spacing: 0.42px;
 margin-right: 8px;
 }
 
-.modal__link{
+&__link{
     color: $buton-bg;
 font-family: "Roboto";
 font-size: 14px;
@@ -164,7 +159,7 @@ letter-spacing: 0.42px;
 text-decoration-line: underline;
 }
 
-.modal__button{
+&__button{
     width: 200px;
 height: 50px;
     color: $footer-a;
@@ -186,7 +181,7 @@ margin-right: 124px;
 }
 
 
-.modal__btn{
+&__btn{
     width: 30px;
 height: 30px;
  border-radius: 50%;
@@ -203,19 +198,25 @@ height: 30px;
 
 
 
-.modal__svg2{
+&__svg2{
 width: 18px;
 height: 18px;
 transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__svg2:hover{
+&__svg2:hover{
 
         fill: $buton-bg;
 }
 
-.modal__svg2:focus{
+&__svg2:focus{
         fill: $buton-bg;
     
 }
+}
+
+.is-hidden .modal{
+    transform: translate(1000px, 1000px) rotate(360deg); 
+}
+
