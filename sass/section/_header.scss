@@ -14,23 +14,12 @@
     
     &__logo{
         color: $buton-bg;
-        font-size: 26px;
-        font-family: "Raleway";
-        font-weight: 700;
-        line-height: 1.39;
-        letter-spacing: 0.78px;
-        
-      
+        @extend %font;
     }
 
     &__logo2{
         color: $logo-color;
-        font-size: 26px;
-        font-family: "Raleway";
-        font-weight: 700;
-        line-height: 1.39;
-        letter-spacing: 0.78px
-        
+        @extend %font;
     }
 
     &__nav-list{
@@ -42,10 +31,7 @@
     
     &__nav-link{
         color: $header-href;
-         font-size: 14px;
-         font-weight: 500;
-         line-height: 1.15;
-         letter-spacing: 0.28px;
+        @include text($size: 14px,$weight: 500,$height: 1.15,$spacing: 0.28px);
          transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -98,13 +84,10 @@
         margin-left: auto;
         
      }
-    
+
      &__link{
          color: $text-color;
-         font-size: 14px;
-         font-weight: 500;
-         line-height: 1.15;
-         letter-spacing: 0.28px;
+         @include text($size: 14px,$weight: 500,$height: 1.15,$spacing: 0.28px);
          display: flex;
          align-items: center;
          gap: 10px;

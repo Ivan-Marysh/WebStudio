@@ -12,10 +12,7 @@
     
     &__title{
         text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 42px;
-        letter-spacing: 1.08px;
+        @include text($size: 36px,$weight: 700,$height: 42px,$spacing: 1.08px);
         margin-bottom: 50px;
     }
     &__img{
@@ -31,18 +28,12 @@
         
     }
     &__subtitle{
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.1875;
-        letter-spacing: 0.48px;
+        @include text($size: 16px,$weight: 500,$height: 1.1875,$spacing: 0.48px);
         margin-bottom: 10px;
         
         }
         &__text{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.1875;
-        letter-spacing: 0.48px;
+            @include text($size: 16px,$weight: 500,$height: 1.1875,$spacing: 0.48px);
         }
         
     &__div2{

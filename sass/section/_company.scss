@@ -6,12 +6,8 @@
       color: $header-href;
   
   text-align: center;
-  font-family: "Roboto";
-  font-size: 36px;
+  @include text($size: 36px,$weight: 700,$height: normal,$spacing: 1.08px);
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
   margin-bottom: 50px;
   }
   

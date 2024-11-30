@@ -14,29 +14,18 @@
   
   &__link2 {
     color: $footer-a;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.72;
-    letter-spacing: 0.42px;
+    @include text($size: 14px,$weight: 400,$height: 1.72,$spacing: 0.42px);
     margin-top: 20px;
   }
   
   &__logo{
     color: $buton-bg;
-    font-size: 26px;
-    font-family: "Raleway";
-    font-weight: 700;
-    line-height: 1.39;
-    letter-spacing: 0.78px;
+    @extend %font;
   }
   
   &__logo2 {
     color: $footer-a;
-    font-size: 26px;
-    font-family: "Raleway";
-    font-weight: 700;
-    line-height: 1.39;
-    letter-spacing: 0.78px;
+    @extend %font;
   }
   
   &__item {
@@ -44,10 +33,7 @@
   }
   &__link {
     color: $footer-a2;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.72;
-    letter-spacing: 0.42px;
+    @include text($size: 14px,$weight: 400,$height: 1.72,$spacing: 0.42px);
   }
   
   &__div2 {
@@ -57,12 +43,8 @@
   &__title {
     color: $footer-a;
   
-    font-family: "Roboto";
-    font-size: 14px;
+    @include text($size: 14px,$weight: 700,$height: normal,$spacing: 0.42px);
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
     text-transform: uppercase;
   }
   
@@ -106,12 +88,8 @@
   &__title2 {
     color: $footer-a;
   
-    font-family: "Roboto";
-    font-size: 14px;
+    @include text($size: 14px,$weight: 700,$height: normal,$spacing: 0.42px);
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
   }
@@ -136,12 +114,8 @@
   &__input {
     color: rgba(255, 255, 255, 0.6);
   
-    font-family: "Roboto";
-    font-size: 16px;
+    @include text($size: 16px,$weight: 400,$height: 20px,$spacing: 0.48px);
     font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.48px;
     padding-left: 16px;
   }
   
@@ -164,12 +138,8 @@
     color: $footer-a;
   
     text-align: center;
-    font-family: "Roboto";
-    font-size: 16px;
+    @include text($size: 16px,$weight: 700,$height: 30px,$spacing: 0.96px);
     font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.96px;
     padding-right: 63px;
   }
   
