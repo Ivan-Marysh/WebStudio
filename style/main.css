@@ -13,6 +13,9 @@ h1, h2, h3, p, ul {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 button {
@@ -24,19 +27,34 @@ address {
 }
 
 .footer__logo2, .footer__logo, .header__logo2, .header__logo {
-  font-size: 26px;
+  font-size: 24px;
   font-family: "Raleway";
   font-weight: 700;
   line-height: 1.39;
-  letter-spacing: 0.78px;
+  letter-spacing: 0.72px;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 body {
@@ -44,22 +62,64 @@ body {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 2px solid #ECECEC;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 .header__box {
   display: flex;
   align-items: center;
 }
 .header__logo-link {
-  margin-right: 93px;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .header__logo-link {
+    margin-right: 88px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo-link {
+    margin-right: 93px;
+  }
 }
 .header__logo {
   color: #2196F3;
 }
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    font-size: 26px;
+    letter-spacing: 0.78px;
+  }
+}
 .header__logo2 {
   color: #000;
+}
+@media screen and (min-width: 1200px) {
+  .header__logo2 {
+    font-size: 26px;
+    letter-spacing: 0.78px;
+  }
+}
+.header__nav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__nav {
+    display: block;
+  }
 }
 .header__nav-list {
   display: flex;
@@ -104,9 +164,22 @@ body {
   color: #2196F3;
 }
 .header__list {
-  display: flex;
-  gap: 50px;
+  display: none;
   margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__list {
+    gap: 50px;
+    flex-direction: row;
+    display: flex;
+  }
 }
 .header__link {
   color: #757575;
@@ -153,23 +226,44 @@ body {
   background-position: center;
   background-size: cover;
   background-color: rgba(47, 48, 58, 0.4);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .business {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
 .business__title {
-  width: 696px;
+  width: 100%;
   color: #FFF;
   text-align: center;
   font-family: "Roboto";
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 2.64px;
+  line-height: 1.61;
+  letter-spacing: 1.56px;
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .business__title {
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .business__title {
+    width: 696px;
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+  }
 }
 .business__btn {
   width: 216px;
@@ -184,22 +278,38 @@ body {
 .business__button {
   color: #FFF;
   font-family: "Roboto";
-  padding-left: 32px;
+  padding-left: 24px;
   padding-bottom: 10px;
-  padding-right: 32px;
+  padding-right: 24px;
   padding-top: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .business__button {
+    padding-left: 32px;
+    padding-bottom: 10px;
+    padding-right: 32px;
+    padding-top: 10px;
+  }
 }
 
 .details {
-  padding-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .details {
+    padding-top: 94px;
+  }
 }
 .details__list {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .details__item::before {
   content: "";
-  width: 270px;
+  width: 450px;
   height: 120px;
   background-image: url(../img/antena1.png);
   background-repeat: no-repeat;
@@ -209,6 +319,16 @@ body {
   display: block;
   border-radius: 4px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .details__item::before {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .details__item::before {
+    width: 270px;
+  }
 }
 .details__item:nth-child(2)::before {
   background-image: url(../img/clock1.png);
@@ -234,6 +354,7 @@ body {
   font-weight: 400;
   line-height: 1.72;
   letter-spacing: 0.42px;
+  width: 270px;
 }
 
 .work {

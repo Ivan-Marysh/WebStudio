@@ -4,20 +4,34 @@
     background-position: center;
     background-size: cover;
     background-color: rgba(47, 48, 58, 0.40);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 200px;
+    padding-bottom: 200px;
+    }
     
     &__title{
-        width: 696px;
+        width: 100%;
         color: $footer-a;
     
     text-align: center;
-    @include text($size: 44px,$weight: 900,$height: 60px,$spacing: 2.64px);
+    @include text($size: 26px,$weight: 900,$height: 1.61,$spacing: 1.56px);
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 480px) {
+        width: 360px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+        @include text($size: 44px,$weight: 900,$height: 1.36,$spacing: 2.64px);
+    }
     }
 
     &__btn{
@@ -39,9 +53,16 @@
     
     
     font-family: "Roboto";
-    padding-left: 32px;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-top: 10px;
+
+    @media screen and (min-width: 1200px) {
+        padding-left: 32px;
     padding-bottom: 10px;
     padding-right: 32px;
     padding-top: 10px;
+    }
     } 
 }

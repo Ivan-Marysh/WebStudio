@@ -1,7 +1,17 @@
 .header{
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom: 2px solid #ECECEC;
+    @media screen and (min-width: 768px) {
+        padding-top: 26px;
+    padding-bottom: 26px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+    padding-bottom: 25px;
+    }
+
 
     &__box{
         display: flex;
@@ -9,17 +19,47 @@
     }
 
     &__logo-link{
-        margin-right: 93px;
+        margin-right: auto;
+
+        @media screen and (min-width: 768px) {
+            margin-right: 88px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-right: 93px;
+        }
     }
     
     &__logo{
         color: $buton-bg;
         @extend %font;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+            letter-spacing: 0.78px;
+        }
     }
 
     &__logo2{
         color: $logo-color;
         @extend %font;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 26px;
+            letter-spacing: 0.78px;
+        }
+    }
+
+    &__nav{
+        display: none;
+
+        @media screen and (min-width: 768px) {
+         display: block;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            
+        }
     }
 
     &__nav-list{
@@ -79,10 +119,20 @@
     }
 
     &__list{
-        display: flex;
-        gap: 50px;
+        display: none;
         margin-left: auto;
-        
+
+        @media screen and (min-width: 768px) {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            gap: 50px;
+            flex-direction: row;
+            display: flex;
+        }
      }
 
      &__link{
