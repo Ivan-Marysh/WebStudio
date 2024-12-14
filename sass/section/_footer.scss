@@ -5,7 +5,24 @@
 
   &__box {
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-items: baseline;
+      flex-direction: row;
+      gap: 0;
+      justify-content: space-around;
+      
+    }
+
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+    }
   }
   
   &__divv {
@@ -21,11 +38,31 @@
   &__logo{
     color: $buton-bg;
     @extend %font;
+
+    @media screen and (min-width: 480px) {
+      font-size: 24px;
+      letter-spacing: 0.72px;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      letter-spacing: 0.72px;
+    }
   }
   
   &__logo2 {
     color: $footer-a;
     @extend %font;
+
+    @media screen and (min-width: 480px) {
+      font-size: 24px;
+      letter-spacing: 0.72px;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 24px;
+      letter-spacing: 0.72px;
+    }
   }
   
   &__item {
@@ -37,7 +74,11 @@
   }
   
   &__div2 {
-    margin-left: 82px;
+    
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 82px;
+    }
   }
   
   &__title {
@@ -81,8 +122,29 @@
     height: 20px;
   }
   
+  &__diiv{
+    @media screen and (min-width: 768px) {
+      
+    }
+    @media screen and (min-width: 1200px) {
+      margin-left: 93px;
+    }
+  }
+
   &__form {
-    margin-left: auto;
+    
+    @media screen and (min-width: 480px) {
+      
+    }
+
+    @media screen and (min-width: 768px) {
+      gap: 20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      gap: 12px;
+      flex-direction: row;
+    }
   }
   
   &__title2 {
