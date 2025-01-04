@@ -187,9 +187,15 @@
 //===================menu===================
 
 
+
+
 &__button{
 border: none;
 background-color: transparent;
+
+@media screen and (min-width: 768px) {
+    display: none;
+}
 }
 
 &__menu{
@@ -197,6 +203,22 @@ width: 40px;
 height: 60px;
 fill: $logo-color;
 
+}
+
+&__menu-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+    padding: 48px 40px;
+    opacity: 1;
+}
+
+&__menu-is-hidden{
+    opacity: 0;
+    pointer-events: none;
 }
 
 }
