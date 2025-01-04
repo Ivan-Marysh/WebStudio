@@ -219,6 +219,15 @@ body {
 .header__link:focus .header__svg {
   fill: #2196F3;
 }
+.header__button {
+  border: none;
+  background-color: transparent;
+}
+.header__menu {
+  width: 40px;
+  height: 60px;
+  fill: #000;
+}
 
 .business {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/development1.jpg);
