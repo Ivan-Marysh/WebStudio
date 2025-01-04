@@ -123,6 +123,8 @@
   }
   
   &__diiv{
+    
+
     @media screen and (min-width: 768px) {
       margin-top: 60px;
     }
@@ -131,23 +133,9 @@
     }
   }
 
-  &__form {
     
-    @media screen and (min-width: 480px) {
-      
-    }
-
-    @media screen and (min-width: 768px) {
-      gap: 20px;
 
 
-    }
-
-    @media screen and (min-width: 1200px) {
-      gap: 12px;
-      flex-direction: row;
-    }
-  }
   
   &__title2 {
     color: $footer-a;
@@ -160,10 +148,6 @@
   
   &__test{
       display: block;
-
-      @media screen and (min-width: 768px) {
-        
-      }
 
       @media screen and (min-width: 1200px) {
       display: flex;
@@ -208,9 +192,9 @@
 
   }
   
-  &__divv3 {
-    // position: relative;
-  }
+  // &__divv3 {
+  //   // position: relative;
+  // }
   
   &__btn {
     width: 200px;

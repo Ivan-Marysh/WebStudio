@@ -772,17 +772,6 @@ body {
     margin-left: 93px;
   }
 }
-@media screen and (min-width: 768px) {
-  .footer__form {
-    gap: 20px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer__form {
-    gap: 12px;
-    flex-direction: row;
-  }
-}
 .footer__title2 {
   color: #FFF;
   font-family: "Roboto";
@@ -1070,14 +1059,33 @@ body {
 }
 
 .advertising {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .advertising {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 .advertising__list {
   display: flex;
   gap: 8px;
-  justify-content: center;
-  margin-bottom: 50px;
+  row-gap: 15px;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .advertising__list {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advertising__list {
+    margin-bottom: 50px;
+  }
 }
 .advertising__btn {
   width: 130px;
@@ -1110,8 +1118,18 @@ body {
   gap: 30px;
 }
 .advertising__item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+  .advertising__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advertising__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 }
 .advertising__item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -1124,6 +1142,24 @@ body {
   position: relative;
   overflow: hidden;
   transition: transformY 1s, opacity 1s;
+}
+.advertising__img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .advertising__img {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advertising__img {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advertising__img {
+    width: 370px;
+  }
 }
 .advertising__text2 {
   width: 100%;
