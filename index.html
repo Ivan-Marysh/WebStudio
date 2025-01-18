@@ -15,7 +15,7 @@
     <header class="header">
       <div class="container header__box">
       <a class="header__logo-link" href="./index.html"><span class="header__logo">Web</span><span class="header__logo2">Studio</span></a>
-      <button type="button" class="header__button" data-menu-open><svg class="header__menu">
+      <button type="button" class="header__button" .js-open-menu><svg class="header__menu">
         <use href="./img/symbol-defs.svg#menu"></use>
       </svg></button>
       <nav class="header__nav">
@@ -33,8 +33,9 @@
           <use href="./img/symbol-defs.svg#smartphone"></use>
         </svg>+38 096 111 11 11</a></li>
       </ul>
-      <div class="header__menu-div header__menu-is-hidden" is-hidden-menu>
-      <button type="button" class="header__menu-button" data-menu-close><svg class="header__menu-close">
+      <div class="header__menu-div header__menu-is-hidden" .is-open>
+        <div .js-menu-container>
+      <button type="button" class="header__menu-button" .js-close-menu><svg class="header__menu-close">
         <use href="./img/symbol-defs.svg#close"></use>
       </svg></button>
       <ul class="header__menu-list">
@@ -52,6 +53,7 @@
         <li class="header__menu-item3"><a href="" class="header__menu-link3">Facebook</a></li>
         <li class="header__menu-item3"><a href="" class="header__menu-link3">LinkedIn</a></li>
       </ul>
+    </div>
     </div>
     </div>
     </header>
