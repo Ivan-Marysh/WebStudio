@@ -15,7 +15,8 @@
     <header class="header">
       <div class="container header__box">
       <a class="header__logo-link" href="./index.html"><span class="header__logo">Web</span><span class="header__logo2">Studio</span></a>
-      <button type="button" class="header__button" .js-open-menu><svg class="header__menu">
+      <button type="button" class="header__button" data-modal-header-open aria-label="Button to open menu">
+        <svg class="header__menu">
         <use href="./img/symbol-defs.svg#menu"></use>
       </svg></button>
       <nav class="header__nav">
@@ -33,27 +34,25 @@
           <use href="./img/symbol-defs.svg#smartphone"></use>
         </svg>+38 096 111 11 11</a></li>
       </ul>
-      <div class="header__menu-div header__menu-is-hidden" .is-open>
-        <div .js-menu-container>
-      <button type="button" class="header__menu-button" .js-close-menu><svg class="header__menu-close">
+      <div class="menu menu1__is-hidden" data-header-modal>
+      <button type="button" class="menu__button" data-modal-header-close aria-label="Button to close menu"><svg class="menu__close">
         <use href="./img/symbol-defs.svg#close"></use>
       </svg></button>
-      <ul class="header__menu-list">
-        <li class="header__menu-item"><a href="./index.html" class="header__menu-link">Студія</a></li>
-        <li class="header__menu-item"><a href="./panges/portfolio.html" class="header__menu-link">Портфоліо</a></li>
-        <li class="header__menu-item"><a href="" class="header__menu-link">Контакти</a></li>
+      <ul class="menu__list">
+        <li class="menu__item"><a href="./index.html" class="menu__link4 ">Студія</a></li>
+        <li class="menu__item"><a href="./panges/portfolio.html" class="menu__link">Портфоліо</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Контакти</a></li>
       </ul>
-      <ul class="header__menu-list2">
-        <li class="header__menu-item2"><a href="tel:+380961111111" class="header__menu-link2">+38 096 111 11 11</a></li>
-        <li class="header__menu-item2"><a href="mailto:info@devstudio.com" class="header__menu-link2">info@devstudio.com</a></li>
+      <ul class="menu__list2">
+        <li class="menu__item2"><a href="tel:+380961111111" class="menu__link2">+38 096 111 11 11</a></li>
+        <li class="menu__item4"><a href="mailto:info@devstudio.com" class="menu__link5">info@devstudio.com</a></li>
       </ul>
-      <ul class="header__menu-list3">
-        <li class="header__menu-item3"><a href="" class="header__menu-link3">Instagram</a></li>
-        <li class="header__menu-item3"><a href="" class="header__menu-link3">Twitter</a></li>
-        <li class="header__menu-item3"><a href="" class="header__menu-link3">Facebook</a></li>
-        <li class="header__menu-item3"><a href="" class="header__menu-link3">LinkedIn</a></li>
+      <ul class="menu__list3">
+        <li class="menu__item3"><a href="" class="menu__link3">Instagram</a></li>
+        <li class="menu__item3"><a href="" class="menu__link3">Twitter</a></li>
+        <li class="menu__item3"><a href="" class="menu__link3">Facebook</a></li>
+        <li class="menu__item3"><a href="" class="menu__link3">LinkedIn</a></li>
       </ul>
-    </div>
     </div>
     </div>
     </header>
