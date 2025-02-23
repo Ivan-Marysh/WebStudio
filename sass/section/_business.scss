@@ -1,5 +1,5 @@
 .business{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/development1.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/tablet/imgbusiness-tablet@1x.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,10 +7,20 @@
     padding-top: 118px;
     padding-bottom: 118px;
     text-align: center;
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(../img/tablet/imgbusiness-tablet@2x.webp);
+  }
 
     @media screen and (min-width: 1200px) {
         padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/desktop/imgbusiness-desktop@1x.webp);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(../img/desktop/imgbusiness-desktop@2x.webp);
     }
     
     &__title{
@@ -65,4 +75,4 @@
     padding-top: 10px;
     }
     } 
-}
+}}
